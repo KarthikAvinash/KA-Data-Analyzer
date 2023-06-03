@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dataset Details</title>
+    <title>KA Data Analyzer</title>
     <style>
       body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom left, #4db6ac, #388e3c);
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -11,13 +13,13 @@
 
       .container {
         display: flex;
-        height: 100vh;
+        height: 80vh;
       }
 
       .left-section {
         flex: 0.7;
-        padding: 20px;
-        overflow: hidden;
+        padding: 0px;
+        overflow: scroll;
         position: sticky;
         top: 0;
         bottom: 0;
@@ -25,19 +27,21 @@
 
       .right-section {
         flex: 1;
-        padding: 20px;
-        overflow: hidden;
-        position: relative;
-        background-color: #f9f9f9;
-        /* Add the following properties */
-        display: flex;
-        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden; /* Add this line to hide horizontal scroll */
+        position: relative; /* Add position relative */
+        background-color: #f9f9f9; /* Add a visually appealing background color */
       }
 
-      .right-section .table-container {
-        flex: 1;
-        overflow-y: scroll;
-        overflow-x: hidden;
+      .left-section::-webkit-scrollbar,
+      .right-section::-webkit-scrollbar {
+        width: 0; /* Hide vertical scrollbar */
+        background-color: transparent;
+      }
+
+      .left-section::-webkit-scrollbar-thumb,
+      .right-section::-webkit-scrollbar-thumb {
+        background-color: transparent; /* Hide scrollbar thumb */
       }
 
       .scroll-bar {
@@ -46,12 +50,11 @@
         height: 8px;
         background-color: #ddd;
       }
-
       .scroll-bar-progress {
         height: 100%;
         background-color: #4caf50;
         width: 0;
-        transition: width 0.3s ease-in-out;
+        transition: width 0.1s ease-in-out;
       }
 
       table {
@@ -68,10 +71,27 @@
         font-size: 12px; /* Adjust the font size as needed */
       }
 
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
       }
 
+      p {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #555;
+        font-size: 16px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #c1e6d9; /* Lighter shade of #4db6ac */
+      }
+      
+      tr:nth-child(odd) {
+        background-color: #aadab8; /* Lighter shade of #388e3c */
+      }
+      
       th {
         background-color: #4caf50;
         color: white;
@@ -82,57 +102,56 @@
       }
 
       #scatter-plot {
-        width: 100%;
-        height: 400px;
+        width: 105%;
+        height: 450px;
       }
 
       /* Adjust the relative width for each column */
       th:nth-child(1),
       td:nth-child(1) {
-        width: 5.3%;
+        width: 5%;
       }
 
       th:nth-child(2),
       td:nth-child(2) {
-        width: 25%;
+        width: 30%;
       }
 
       th:nth-child(3),
       td:nth-child(3) {
-        width: 15%;
+        width: 16%;
       }
 
       th:nth-child(4),
       td:nth-child(4) {
-        width: 15%;
+        width: 10%;
       }
 
       th:nth-child(5),
       td:nth-child(5) {
-        width: 15%;
+        width: 10%;
       }
 
       th:nth-child(6),
       td:nth-child(6) {
-        width: 15%;
+        width: 7%;
       }
-
+      h1 {
+        text-align: center;
+        margin: 20px 0;
+        color: #333; /* Update the heading color */
+      }
       .right-section::before {
         content: "";
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: 5%;
-        background-color: rgba(
-          255,
-          255,
-          255,
-          0.5
-        ); /* Adjust the background color and opacity as desired */
-        backdrop-filter: blur(5px); /* Adjust the blur radius as desired */
-        pointer-events: none; /* Ensure the pseudo-element doesn't interfere with scrolling */
-        z-index: -1; /* Add a negative z-index to position the blur behind the content */
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        pointer-events: none;
+        z-index: -1;
       }
     </style>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -193,7 +212,15 @@
             type: "scatter",
             clickmode: "event+select",
           },
-        ]);
+        ], {
+          title: "Confidence vs Support",
+          xaxis: {
+            title: "Support",
+          },
+          yaxis: {
+            title: "Confidence",
+          },
+        });
 
         // Add event listener for plot click
         scatterPlot.on("plotly_click", function (eventData) {
@@ -206,7 +233,9 @@
     </script>
   </head>
   <body>
-    <h1>Dataset Details</h1>
+    
+    <h1>KA DATA ANALYZER</h1>
+    <h3><center>Ramayana [Roman]</center></h3>
     <div class="container">
       <div class="left-section">
         <div id="scatter-plot"></div>
@@ -215,29 +244,27 @@
         <div class="scroll-bar">
           <div class="scroll-bar-progress" id="scroll-bar-progress"></div>
         </div>
-        <div class="table-container">
-          <table id="dataset-table">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Antecedent</th>
-                <th>Consequent</th>
-                <th>Confidence</th>
-                <th>Lift</th>
-                <th>Support</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for row in csv_data %}
-              <tr onclick="scrollToRow({{ forloop.counter0 }});">
-                {% for column in row %}
-                <td>{{ column }}</td>
-                {% endfor %}
-              </tr>
+        <table id="dataset-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Antecedent</th>
+              <th>Consequent</th>
+              <th>Confidence</th>
+              <th>Lift</th>
+              <th>Support</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in csv_data %}
+            <tr>
+              {% for column in row %}
+              <td>{{ column }}</td>
               {% endfor %}
-            </tbody>
-          </table>
-        </div>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
     </div>
   </body>

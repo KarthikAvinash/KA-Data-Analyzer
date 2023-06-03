@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dataset List</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom left, #4db6ac, #388e3c);
+        margin: 0;
+        padding: 0;
+      
+      }
+      .outer-container {
+        padding: 80px;
+      }
+
+      .container {
+        padding: 15px;
+        width: 700px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow-y: auto; /* Allow vertical scrolling */
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #555;
+        font-size: 16px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-container">
+    <div class="container">
+      <h1>Available Datasets</h1>
+      <p>
+        Welcome to our website! Here, you can explore various datasets that are
+        available for analysis and data mining. Each dataset comes with its
+        minimum support and minimum confidence values, which are crucial for
+        extracting meaningful patterns and associations. Simply click on a
+        dataset name to view detailed information and analyze the data further.
+        Start your data exploration journey now!
+      </p>
+
+      <!-- Display the list of dataset files in a centered table -->
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Dataset</th>
+            <th>minSupport</th>
+            <th>minConfidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for dataset in dataset_files %}
+          <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>
+              <a href="{% url 'dataset-details' forloop.counter0 %}">{{ dataset.name }}</a>
+            </td>
+            <td>{{ dataset.min_support }}</td>
+            <td>{{ dataset.min_confidence }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </body>
+</html>
