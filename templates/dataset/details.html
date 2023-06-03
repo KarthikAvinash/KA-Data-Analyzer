@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KA Data Analyzer</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .container {
+        display: flex;
+        height: 80vh;
+      }
+
+      .left-section {
+        flex: 0.7;
+        padding: 0px;
+        overflow: scroll;
+        position: sticky;
+        top: 0;
+        bottom: 0;
+      }
+
+      .right-section {
+        flex: 1;
+        overflow-y: scroll;
+        overflow-x: hidden; /* Add this line to hide horizontal scroll */
+        position: relative; /* Add position relative */
+        background-color: #f9f9f9; /* Add a visually appealing background color */
+      }
+
+      .left-section::-webkit-scrollbar,
+      .right-section::-webkit-scrollbar {
+        width: 0; /* Hide vertical scrollbar */
+        background-color: transparent;
+      }
+
+      .left-section::-webkit-scrollbar-thumb,
+      .right-section::-webkit-scrollbar-thumb {
+        background-color: transparent; /* Hide scrollbar thumb */
+      }
+
+      .scroll-bar {
+        position: sticky;
+        top: 0;
+        height: 8px;
+        background-color: #ddd;
+      }
+
+      .scroll-bar-progress {
+        height: 100%;
+        background-color: #4caf50;
+        width: 0;
+        transition: width 0.3s ease-in-out;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed; /* Add this line to fix column widths */
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        word-wrap: break-word;
+        font-size: 12px; /* Adjust the font size as needed */
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      th {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .selected-row {
+        background-color: yellow;
+      }
+
+      #scatter-plot {
+        width: 105%;
+        height: 450px;
+      }
+
+      /* Adjust the relative width for each column */
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 5%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 30%;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 16%;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 10%;
+      }
+
+      th:nth-child(5),
+      td:nth-child(5) {
+        width: 10%;
+      }
+
+      th:nth-child(6),
+      td:nth-child(6) {
+        width: 7%;
+      }
+      h1 {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .right-section::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        pointer-events: none;
+        z-index: -1;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              function scrollToRow(rowNumber) {
+                var table = document.getElementById("dataset-table");
+                var row = table.rows[rowNumber];
+                if (row) {
+                  var nextRow = table.rows[rowNumber + 2];
+
+                  if (nextRow) {
+                    var scrollTop = nextRow.offsetTop;
+
+                    document.getElementById("right-section").scrollTop = scrollTop;
+                    removeSelectedClass();
+                    nextRow.classList.add("selected-row");
+                  }
+                }
+              }
+
+              function removeSelectedClass() {
+                var rows = document.querySelectorAll("#dataset-table tr");
+                rows.forEach(function (row) {
+                  row.classList.remove("selected-row");
+                });
+              }
+
+              var rightSection = document.getElementById("right-section");
+              rightSection.addEventListener("scroll", function () {
+                var scrollBarProgress = document.getElementById(
+                  "scroll-bar-progress"
+                );
+                var maxScroll =
+                  rightSection.scrollHeight - rightSection.clientHeight;
+                var scrollPercentage = (rightSection.scrollTop / maxScroll) * 100;
+                scrollBarProgress.style.width = scrollPercentage + "%";
+              });
+
+              // Retrieve the scatter plot data from the Django template variable
+              var scatterData = {{ scatter_data|safe }};
+
+              // Extract the x and y data from the scatter plot data
+              var xData = scatterData.map(function (item) {
+                return item.Support;
+              });
+              var yData = scatterData.map(function (item) {
+                return item.Confidence;
+              });
+
+              // Create the scatter plot using Plotly
+              var scatterPlot = document.getElementById("scatter-plot");
+      Plotly.newPlot(scatterPlot, [
+        {
+          x: xData,
+          y: yData,
+          mode: "markers",
+          type: "scatter",
+          clickmode: "event+select",
+        },
+      ], {
+        title: "Confidence vs Support",
+        xaxis: {
+          title: "Support",
+        },
+        yaxis: {
+          title: "Confidence",
+        },
+      });
+
+              // Add event listener for plot click
+              scatterPlot.on("plotly_click", function (eventData) {
+                var selectedPoint = eventData.points[0];
+                var selectedRowIndex = selectedPoint.pointIndex;
+
+                scrollToRow(selectedRowIndex);
+              });
+            });
+    </script>
+  </head>
+  <body>
+    <h1>KA DATA ANALYZER</h1>
+    <h3><center>Ramayana [Roman]</center></h3>
+    <div class="container">
+      <div class="left-section">
+        <div id="scatter-plot"></div>
+      </div>
+      <div class="right-section" id="right-section">
+        <div class="scroll-bar">
+          <div class="scroll-bar-progress" id="scroll-bar-progress"></div>
+        </div>
+        <table id="dataset-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Antecedent</th>
+              <th>Consequent</th>
+              <th>Confidence</th>
+              <th>Lift</th>
+              <th>Support</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in csv_data %}
+            <tr>
+              {% for column in row %}
+              <td>{{ column }}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

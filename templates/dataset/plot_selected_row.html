@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dataset Details</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+
+      .left-section {
+        flex: 0.7;
+        padding: 20px;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        bottom: 0;
+      }
+
+      .right-section {
+        flex: 1;
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+        background-color: #f9f9f9;
+        /* Add the following properties */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .right-section .table-container {
+        flex: 1;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .scroll-bar {
+        position: sticky;
+        top: 0;
+        height: 8px;
+        background-color: #ddd;
+      }
+
+      .scroll-bar-progress {
+        height: 100%;
+        background-color: #4caf50;
+        width: 0;
+        transition: width 0.3s ease-in-out;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed; /* Add this line to fix column widths */
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        word-wrap: break-word;
+        font-size: 12px; /* Adjust the font size as needed */
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      th {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .selected-row {
+        background-color: yellow;
+      }
+
+      #scatter-plot {
+        width: 100%;
+        height: 400px;
+      }
+
+      /* Adjust the relative width for each column */
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 5.3%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 25%;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 15%;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 15%;
+      }
+
+      th:nth-child(5),
+      td:nth-child(5) {
+        width: 15%;
+      }
+
+      th:nth-child(6),
+      td:nth-child(6) {
+        width: 15%;
+      }
+
+      .right-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5%;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.5
+        ); /* Adjust the background color and opacity as desired */
+        backdrop-filter: blur(5px); /* Adjust the blur radius as desired */
+        pointer-events: none; /* Ensure the pseudo-element doesn't interfere with scrolling */
+        z-index: -1; /* Add a negative z-index to position the blur behind the content */
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        function scrollToRow(rowNumber) {
+          var table = document.getElementById("dataset-table");
+          var row = table.rows[rowNumber];
+          if (row) {
+            var nextRow = table.rows[rowNumber + 2];
+
+            if (nextRow) {
+              var scrollTop = nextRow.offsetTop;
+
+              document.getElementById("right-section").scrollTop = scrollTop;
+              removeSelectedClass();
+              nextRow.classList.add("selected-row");
+            }
+          }
+        }
+
+        function removeSelectedClass() {
+          var rows = document.querySelectorAll("#dataset-table tr");
+          rows.forEach(function (row) {
+            row.classList.remove("selected-row");
+          });
+        }
+
+        var rightSection = document.getElementById("right-section");
+        rightSection.addEventListener("scroll", function () {
+          var scrollBarProgress = document.getElementById(
+            "scroll-bar-progress"
+          );
+          var maxScroll =
+            rightSection.scrollHeight - rightSection.clientHeight;
+          var scrollPercentage = (rightSection.scrollTop / maxScroll) * 100;
+          scrollBarProgress.style.width = scrollPercentage + "%";
+        });
+
+        // Retrieve the scatter plot data from the Django template variable
+        var scatterData = {{ scatter_data|safe }};
+
+        // Extract the x and y data from the scatter plot data
+        var xData = scatterData.map(function (item) {
+          return item.Support;
+        });
+        var yData = scatterData.map(function (item) {
+          return item.Confidence;
+        });
+
+        // Create the scatter plot using Plotly
+        var scatterPlot = document.getElementById("scatter-plot");
+        Plotly.newPlot(scatterPlot, [
+          {
+            x: xData,
+            y: yData,
+            mode: "markers",
+            type: "scatter",
+            clickmode: "event+select",
+          },
+        ]);
+
+        // Add event listener for plot click
+        scatterPlot.on("plotly_click", function (eventData) {
+          var selectedPoint = eventData.points[0];
+          var selectedRowIndex = selectedPoint.pointIndex;
+
+          scrollToRow(selectedRowIndex);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Dataset Details</h1>
+    <div class="container">
+      <div class="left-section">
+        <div id="scatter-plot"></div>
+      </div>
+      <div class="right-section" id="right-section">
+        <div class="scroll-bar">
+          <div class="scroll-bar-progress" id="scroll-bar-progress"></div>
+        </div>
+        <div class="table-container">
+          <table id="dataset-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Antecedent</th>
+                <th>Consequent</th>
+                <th>Confidence</th>
+                <th>Lift</th>
+                <th>Support</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in csv_data %}
+              <tr onclick="scrollToRow({{ forloop.counter0 }});">
+                {% for column in row %}
+                <td>{{ column }}</td>
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
