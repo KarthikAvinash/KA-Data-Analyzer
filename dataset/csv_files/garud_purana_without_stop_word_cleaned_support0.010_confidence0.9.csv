@@ -1,0 +1,2206 @@
+antecedents,consequents,support,lift,confidence
+ (be,having),(should),0.012658,2.976279,0.900000
+ (be,having),(should),0.012658,2.976279,0.900000
+ (be,having),(should),0.012658,3.854819,0.900000
+ (be,for,performed),(should),0.012658,3.306977,1.000000
+ (should,for,performed),(be),0.012658,6.076923,1.000000
+(by,be,performed),(should),0.014065,3.306977,1.000000
+(by,should,performed),(be),0.014065,6.076923,1.000000
+(be,by,performed),(should),0.011252,3.306977,1.000000
+(performed,by,should),(be),0.011252,6.076923,1.000000
+(be,performed),(should),0.022504,3.306977,1.000000
+(should,performed),(be),0.022504,5.719457,0.941176
+(be,performed),(should),0.016878,3.306977,1.000000
+(should,performed),(be),0.016878,6.076923,1.000000
+(which,said),(will),0.018284,12.226190,0.928571
+(which,said),(will),0.018284,12.226190,0.928571
+(which,said),(will),0.018284,13.204286,0.928571
+(by,which,said),(will),0.015471,12.069444,0.916667
+(by,which,said),(will),0.015471,12.069444,0.916667
+(by,which,said),(will),0.015471,13.035000,0.916667
+ (you,which,said),(will),0.014065,13.166667,1.000000
+ (you,which,said),(will),0.014065,13.166667,1.000000
+ (you,which,said),(will),0.014065,14.220000,1.000000
+ (by,you,which,said),(will),0.011252,13.166667,1.000000
+ (which,by,you,said),(will),0.011252,13.166667,1.000000
+ (by,you,which,said),(will),0.011252,14.220000,1.000000
+(which,that,said),(by),0.011252,3.118421,1.000000
+(which,that,said),(will),0.011252,13.166667,1.000000
+(by,which,that,said),(will),0.011252,13.166667,1.000000
+(will,which,that,said),(by),0.011252,3.118421,1.000000
+(which,that,said),(by,will),0.011252,26.333333,1.000000
+(which,that,said),(by),0.011252,3.118421,1.000000
+(which,that,said),(by),0.011252,3.722513,1.000000
+(which,that,said),(will),0.011252,13.166667,1.000000
+(which,that,said),(will),0.011252,14.220000,1.000000
+(which,by,that,said),(will),0.011252,13.166667,1.000000
+(which,that,will,said),(by),0.011252,3.118421,1.000000
+(which,that,said),(by,will),0.011252,26.333333,1.000000
+(by,which,that,said),(will),0.011252,14.220000,1.000000
+(will,which,that,said),(by),0.011252,3.722513,1.000000
+(which,that,said),(will,by),0.011252,27.346154,1.000000
+ (will,that,said),(by),0.012658,2.806579,0.900000
+ (will,that,said),(by),0.012658,2.806579,0.900000
+ (will,that,said),(by),0.012658,3.350262,0.900000
+(you,said),(will),0.019691,12.288889,0.933333
+(you,said),(will),0.019691,12.288889,0.933333
+(you,said),(will),0.019691,13.272000,0.933333
+(by,you,said),(will),0.014065,11.969697,0.909091
+(by,you,said),(will),0.014065,11.969697,0.909091
+(by,you,said),(will),0.014065,12.927273,0.909091
+ (will,that,said),(you),0.012658,10.665000,0.900000
+(you,that,said),(will),0.012658,13.166667,1.000000
+ (will,that,said),(you),0.012658,10.665000,0.900000
+(you,that,said),(will),0.012658,13.166667,1.000000
+ (will,that,said),(you),0.012658,11.032759,0.900000
+(you,that,said),(will),0.012658,14.220000,1.000000
+(by,you,that,said),(will),0.011252,13.166667,1.000000
+(by,that,you,said),(will),0.011252,13.166667,1.000000
+(by,you,that,said),(will),0.011252,14.220000,1.000000
+ (will,have,said),(by),0.012658,2.806579,0.900000
+ (by,have,said),(will),0.012658,11.850000,0.900000
+ (have,by,said),(will),0.012658,11.850000,0.900000
+ (will,said,have),(by),0.012658,2.806579,0.900000
+ (by,have,said),(will),0.012658,12.798000,0.900000
+ (will,have,said),(by),0.012658,3.350262,0.900000
+(have,you,said),(will),0.011252,13.166667,1.000000
+(have,you,said),(will),0.011252,13.166667,1.000000
+(have,you,said),(will),0.011252,14.220000,1.000000
+ (on,said),(by),0.011252,3.118421,1.000000
+ (on,said),(by),0.011252,3.118421,1.000000
+ (on,said),(by),0.011252,3.722513,1.000000
+(for,said),(by),0.012658,2.806579,0.900000
+(for,said),(by),0.012658,2.806579,0.900000
+(for,said),(by),0.012658,3.350262,0.900000
+(have,you,with),(by),0.012658,2.806579,0.900000
+(have,you,with),(by),0.012658,2.806579,0.900000
+(have,you,with),(by),0.012658,3.350262,0.900000
+(have,you,that),(by),0.011252,3.118421,1.000000
+(have,you,that),(by),0.011252,3.118421,1.000000
+(have,you,that),(by),0.011252,3.722513,1.000000
+ (not,has),(who),0.018284,3.301071,0.928571
+ (not,with,has),(who),0.012658,3.199500,0.900000
+ (about,which),(will),0.014065,11.969697,0.909091
+ (about,which),(will),0.014065,11.969697,0.909091
+ (about,which),(will),0.014065,12.927273,0.909091
+ (about,which,said),(will),0.011252,13.166667,1.000000
+ (about,which,said),(will),0.011252,13.166667,1.000000
+ (about,which,said),(will),0.011252,14.220000,1.000000
+ (about,those),(who),0.012658,3.199500,0.900000
+ (about,those),(who),0.012658,3.199500,0.900000
+ (about,those),(who),0.012658,3.786391,0.900000
+(about,said),(will),0.015471,12.069444,0.916667
+(about,said),(will),0.015471,12.069444,0.916667
+(about,said),(will),0.015471,13.035000,0.916667
+ (about,you,said),(will),0.011252,13.166667,1.000000
+ (about,you,said),(will),0.011252,13.166667,1.000000
+ (about,you,said),(will),0.011252,14.220000,1.000000
+ (about,you,should),(will),0.011252,13.166667,1.000000
+ (about,you,should),(will),0.011252,13.166667,1.000000
+ (about,you,should),(will),0.011252,14.220000,1.000000
+(will,about,he),(you),0.011252,11.850000,1.000000
+ (about,you,he),(will),0.011252,13.166667,1.000000
+(will,about,he),(you),0.011252,11.850000,1.000000
+ (about,you,he),(will),0.011252,13.166667,1.000000
+(will,about,he),(you),0.011252,12.258621,1.000000
+ (about,you,he),(will),0.011252,14.220000,1.000000
+ (it,from,with),(he),0.012658,4.570714,0.900000
+ (be,on,it),(should),0.012658,2.976279,0.900000
+(who,at,with),(by),0.012658,3.118421,1.000000
+(who,with,at),(by),0.011252,3.118421,1.000000
+(will,which,that),(you),0.014065,10.772727,0.909091
+ (you,which,that),(will),0.014065,11.969697,0.909091
+(will,which,that),(you),0.014065,10.772727,0.909091
+ (you,which,that),(will),0.014065,11.969697,0.909091
+(will,which,that),(you),0.014065,11.144201,0.909091
+ (you,which,that),(will),0.014065,12.927273,0.909091
+ (by,will,that),(you),0.014065,10.772727,0.909091
+ (will,by,that),(you),0.014065,10.772727,0.909091
+ (by,will,that),(you),0.014065,11.144201,0.909091
+ (have,you,which),(will),0.011252,13.166667,1.000000
+ (have,you,which),(will),0.011252,13.166667,1.000000
+ (have,you,which),(will),0.011252,14.220000,1.000000
+ (will,have,with),(by),0.011252,3.118421,1.000000
+ (will,with,have),(by),0.011252,3.118421,1.000000
+ (will,have,with),(by),0.011252,3.722513,1.000000
+(then,one),(for),0.012658,4.603597,0.900000
+(then,one),(for),0.012658,5.115108,1.000000
+(then,one),(for),0.012658,5.288430,0.900000
+ (will,tell),(you),0.036568,11.411111,0.962963
+(tell,you),(will),0.036568,12.679012,0.962963
+(tell,you),(will),0.036568,12.679012,0.962963
+ (tell,will),(you),0.036568,11.411111,0.962963
+(tell,you),(will),0.036568,13.693333,0.962963
+ (will,tell),(you),0.036568,11.804598,0.962963
+(tell,about),(will),0.022504,12.392157,0.941176
+(tell,about),(will),0.022504,12.392157,0.941176
+(tell,about),(will),0.022504,13.383529,0.941176
+(will,tell,about),(you),0.021097,11.109375,0.937500
+ (tell,about,you),(will),0.021097,13.166667,1.000000
+(will,about,tell),(you),0.021097,11.109375,0.937500
+ (tell,about,you),(will),0.021097,13.166667,1.000000
+(will,tell,about),(you),0.021097,11.492457,0.937500
+ (tell,about,you),(will),0.021097,14.220000,1.000000
+ (by,tell),(will),0.019691,12.288889,0.933333
+ (tell,by),(will),0.019691,12.288889,0.933333
+ (by,tell),(will),0.019691,13.272000,0.933333
+(by,tell,you),(will),0.018284,13.166667,1.000000
+ (by,tell,will),(you),0.018284,11.003571,0.928571
+ (will,by,tell),(you),0.018284,11.003571,0.928571
+(tell,by,you),(will),0.018284,13.166667,1.000000
+ (by,will,tell),(you),0.018284,11.383005,0.928571
+(by,tell,you),(will),0.018284,14.220000,1.000000
+ (by,tell,me),(you),0.014065,10.772727,0.909091
+ (by,tell,me),(will),0.014065,11.969697,0.909091
+ (tell,by,me),(you),0.014065,10.772727,0.909091
+ (by,tell,me),(you),0.014065,11.144201,0.909091
+ (tell,by,me),(will),0.014065,11.969697,0.909091
+ (by,tell,me),(will),0.014065,12.927273,0.909091
+ (by,will,me,tell),(you),0.014065,11.850000,1.000000
+(by,will,you,me),(tell),0.014065,20.850440,0.909091
+(by,tell,you,me),(will),0.014065,13.166667,1.000000
+ (by,tell,me),(will,you),0.014065,19.586777,0.909091
+ (by,will,tell,me),(you),0.014065,11.850000,1.000000
+(by,will,me,you),(tell),0.014065,20.850440,0.909091
+(by,tell,me,you),(will),0.014065,13.166667,1.000000
+ (tell,by,me),(will,you),0.014065,19.586777,0.909091
+ (by,will,me,tell),(you),0.014065,12.258621,1.000000
+(by,will,you,me),(tell),0.014065,20.850440,0.909091
+(by,tell,you,me),(will),0.014065,14.220000,1.000000
+ (by,tell,me),(will,you),0.014065,20.198864,0.909091
+ (will,tell,me),(you),0.018284,11.850000,1.000000
+(tell,you,me),(will),0.018284,13.166667,1.000000
+ (will,me,tell),(you),0.018284,11.850000,1.000000
+(will,you,me),(tell),0.018284,21.297235,0.928571
+(tell,you,me),(will),0.018284,13.166667,1.000000
+ (will,tell,me),(you),0.018284,12.258621,1.000000
+(tell,you,me),(will),0.018284,14.220000,1.000000
+ (tell,said),(me),0.018284,19.418067,0.928571
+ (tell,said),(will),0.018284,12.226190,0.928571
+ (tell,said),(you),0.018284,11.003571,0.928571
+ (tell,said),(me),0.018284,19.418067,0.928571
+ (tell,said),(me),0.018284,20.631696,0.928571
+ (tell,said),(will),0.018284,12.226190,0.928571
+ (tell,said),(will),0.018284,13.204286,0.928571
+ (will,tell,me),(said),0.016878,17.271255,0.923077
+ (will,tell,said),(me),0.016878,19.303167,0.923077
+ (tell,me,said),(will),0.016878,12.153846,0.923077
+ (will,me,tell),(said),0.016878,17.271255,0.923077
+ (will,said,tell),(me),0.016878,19.303167,0.923077
+ (tell,me,said),(will),0.016878,12.153846,0.923077
+ (will,tell,me),(said),0.016878,18.230769,0.923077
+ (will,tell,said),(me),0.016878,20.509615,0.923077
+ (tell,me,said),(will),0.016878,13.126154,0.923077
+ (will,tell,said),(you),0.018284,11.850000,1.000000
+(will,you,said),(tell),0.018284,21.297235,0.928571
+(tell,you,said),(will),0.018284,13.166667,1.000000
+ (tell,said),(will,you),0.018284,20.006494,0.928571
+ (tell,said),(you),0.018284,11.003571,0.928571
+ (tell,said),(you),0.018284,11.383005,0.928571
+(tell,you,me),(said),0.016878,17.271255,0.923077
+(tell,you,said),(me),0.016878,19.303167,0.923077
+ (tell,me,said),(you),0.016878,10.938462,0.923077
+(you,me,said),(tell),0.016878,21.171216,0.923077
+ (will,said,tell),(you),0.018284,11.850000,1.000000
+(will,you,said),(tell),0.018284,21.297235,0.928571
+(tell,you,said),(will),0.018284,13.166667,1.000000
+ (tell,said),(will,you),0.018284,20.006494,0.928571
+ (will,tell,said),(you),0.018284,12.258621,1.000000
+(will,you,said),(tell),0.018284,21.297235,0.928571
+(tell,you,said),(will),0.018284,14.220000,1.000000
+ (tell,said),(will,you),0.018284,20.631696,0.928571
+(will,tell,you,me),(said),0.016878,17.271255,0.923077
+ (will,tell,me,said),(you),0.016878,11.850000,1.000000
+(will,tell,you,said),(me),0.016878,19.303167,0.923077
+(will,you,me,said),(tell),0.016878,21.171216,0.923077
+(tell,you,me,said),(will),0.016878,13.166667,1.000000
+ (will,tell,me),(you,said),0.016878,43.753846,0.923077
+ (will,tell,said),(you,me),0.016878,41.019231,0.923077
+(tell,you,me),(will,said),0.016878,36.461538,0.923077
+ (tell,me,said),(will,you),0.016878,19.888112,0.923077
+(tell,you,said),(will,me),0.016878,38.606335,0.923077
+(you,me,said),(will,tell),0.016878,24.307692,0.923077
+(tell,you,me),(said),0.016878,17.271255,0.923077
+ (tell,me,said),(you),0.016878,10.938462,0.923077
+(tell,you,said),(me),0.016878,19.303167,0.923077
+(you,me,said),(tell),0.016878,21.171216,0.923077
+(tell,you,me),(said),0.016878,18.230769,0.923077
+ (tell,me,said),(you),0.016878,11.315650,0.923077
+(tell,you,said),(me),0.016878,20.509615,0.923077
+(you,me,said),(tell),0.016878,21.171216,0.923077
+(will,tell,me,you),(said),0.016878,17.271255,0.923077
+ (will,tell,me,said),(you),0.016878,11.850000,1.000000
+(will,tell,you,said),(me),0.016878,19.303167,0.923077
+(will,me,you,said),(tell),0.016878,21.171216,0.923077
+(tell,me,you,said),(will),0.016878,13.166667,1.000000
+ (will,me,tell),(you,said),0.016878,43.753846,0.923077
+ (will,said,tell),(you,me),0.016878,41.019231,0.923077
+(tell,you,me),(will,said),0.016878,36.461538,0.923077
+ (tell,me,said),(will,you),0.016878,19.888112,0.923077
+(tell,you,said),(will,me),0.016878,38.606335,0.923077
+(you,me,said),(will,tell),0.016878,24.307692,0.923077
+(will,tell,you,me),(said),0.016878,18.230769,0.923077
+ (will,tell,me,said),(you),0.016878,12.258621,1.000000
+(will,tell,you,said),(me),0.016878,20.509615,0.923077
+(will,you,me,said),(tell),0.016878,21.171216,0.923077
+(tell,you,me,said),(will),0.016878,14.220000,1.000000
+ (will,tell,me),(you,said),0.016878,43.753846,0.923077
+ (will,tell,said),(you,me),0.016878,43.753846,0.923077
+(tell,you,me),(will,said),0.016878,36.461538,0.923077
+ (tell,me,said),(will,you),0.016878,20.509615,0.923077
+(tell,you,said),(will,me),0.016878,43.753846,0.923077
+(you,me,said),(will,tell),0.016878,24.307692,0.923077
+ (by,tell,me),(said),0.014065,17.009569,0.909091
+ (by,tell,said),(me),0.014065,20.911765,1.000000
+ (by,tell,said),(you),0.012658,10.665000,0.900000
+ (by,tell,said),(will),0.012658,11.850000,0.900000
+ (tell,by,me),(said),0.014065,17.009569,0.909091
+ (tell,by,said),(me),0.014065,20.911765,1.000000
+ (by,tell,me),(said),0.014065,17.954545,0.909091
+ (by,tell,said),(me),0.014065,22.218750,1.000000
+(by,tell,you,me),(said),0.012658,16.839474,0.900000
+ (by,tell,me,said),(you),0.012658,10.665000,0.900000
+(by,tell,you,said),(me),0.012658,20.911765,1.000000
+(by,you,me,said),(tell),0.012658,20.641935,0.900000
+ (by,tell,said),(you,me),0.012658,39.993750,0.900000
+ (by,will,me,tell),(said),0.012658,16.839474,0.900000
+ (by,will,said,tell),(me),0.012658,20.911765,1.000000
+ (by,tell,me,said),(will),0.012658,11.850000,0.900000
+ (by,tell,said),(will,me),0.012658,37.641176,0.900000
+ (tell,by,said),(you),0.012658,10.665000,0.900000
+ (by,tell,said),(you),0.012658,11.032759,0.900000
+ (tell,by,said),(will),0.012658,11.850000,0.900000
+ (by,tell,said),(will),0.012658,12.798000,0.900000
+ (by,will,said,tell),(you),0.012658,11.850000,1.000000
+(by,will,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,you,said),(will),0.012658,13.166667,1.000000
+ (by,tell,said),(will,you),0.012658,19.390909,0.900000
+(by,tell,me,you),(said),0.012658,16.839474,0.900000
+ (by,tell,me,said),(you),0.012658,10.665000,0.900000
+(by,tell,you,said),(me),0.012658,20.911765,1.000000
+(by,me,you,said),(tell),0.012658,20.641935,0.900000
+ (tell,by,said),(you,me),0.012658,39.993750,0.900000
+(by,tell,you,me),(said),0.012658,17.775000,0.900000
+ (by,tell,me,said),(you),0.012658,11.032759,0.900000
+(by,tell,you,said),(me),0.012658,22.218750,1.000000
+(by,you,me,said),(tell),0.012658,20.641935,0.900000
+ (by,tell,said),(you,me),0.012658,42.660000,0.900000
+ (by,will,tell,me),(said),0.012658,16.839474,0.900000
+ (by,will,tell,said),(me),0.012658,20.911765,1.000000
+ (by,tell,me,said),(will),0.012658,11.850000,0.900000
+ (tell,by,said),(will,me),0.012658,37.641176,0.900000
+ (by,will,me,tell),(said),0.012658,17.775000,0.900000
+ (by,will,said,tell),(me),0.012658,22.218750,1.000000
+ (by,tell,me,said),(will),0.012658,12.798000,0.900000
+ (by,tell,said),(will,me),0.012658,42.660000,0.900000
+(by,will,tell,me,you),(said),0.012658,16.839474,0.900000
+ (by,will,tell,me,said),(you),0.012658,11.850000,1.000000
+(by,will,tell,you,said),(me),0.012658,20.911765,1.000000
+(by,will,me,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,me,you,said),(will),0.012658,13.166667,1.000000
+ (by,will,me,tell),(you,said),0.012658,42.660000,0.900000
+ (by,will,said,tell),(you,me),0.012658,44.437500,1.000000
+(by,will,you,said),(tell,me),0.012658,42.660000,0.900000
+(by,tell,you,me),(will,said),0.012658,35.550000,0.900000
+ (by,tell,me,said),(will,you),0.012658,19.390909,0.900000
+(by,tell,you,said),(will,me),0.012658,41.823529,1.000000
+(by,you,me,said),(will,tell),0.012658,23.700000,0.900000
+ (by,tell,said),(will,you,me),0.012658,42.660000,0.900000
+ (by,will,tell,said),(you),0.012658,11.850000,1.000000
+(by,will,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,you,said),(will),0.012658,13.166667,1.000000
+ (tell,by,said),(will,you),0.012658,19.390909,0.900000
+ (by,will,said,tell),(you),0.012658,12.258621,1.000000
+(by,will,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,you,said),(will),0.012658,14.220000,1.000000
+ (by,tell,said),(will,you),0.012658,19.996875,0.900000
+(by,will,tell,me,you),(said),0.012658,16.839474,0.900000
+ (by,will,tell,me,said),(you),0.012658,11.850000,1.000000
+(by,will,tell,you,said),(me),0.012658,20.911765,1.000000
+(by,will,me,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,me,you,said),(will),0.012658,13.166667,1.000000
+ (by,will,tell,me),(you,said),0.012658,42.660000,0.900000
+ (by,will,tell,said),(you,me),0.012658,44.437500,1.000000
+(by,will,you,said),(tell,me),0.012658,42.660000,0.900000
+(by,tell,me,you),(will,said),0.012658,35.550000,0.900000
+ (by,tell,me,said),(will,you),0.012658,19.390909,0.900000
+(by,tell,you,said),(will,me),0.012658,41.823529,1.000000
+(by,me,you,said),(will,tell),0.012658,23.700000,0.900000
+(by,will,tell,me,you),(said),0.012658,17.775000,0.900000
+ (by,will,tell,me,said),(you),0.012658,12.258621,1.000000
+(by,will,tell,you,said),(me),0.012658,22.218750,1.000000
+(by,will,me,you,said),(tell),0.012658,20.641935,0.900000
+(by,tell,me,you,said),(will),0.012658,14.220000,1.000000
+ (tell,by,said),(will,you,me),0.012658,42.660000,0.900000
+ (by,will,me,tell),(you,said),0.012658,42.660000,0.900000
+ (by,will,said,tell),(you,me),0.012658,47.400000,1.000000
+(by,will,you,said),(tell,me),0.012658,42.660000,0.900000
+(by,tell,you,me),(will,said),0.012658,35.550000,0.900000
+ (by,tell,me,said),(will,you),0.012658,19.996875,0.900000
+(by,tell,you,said),(will,me),0.012658,47.400000,1.000000
+(by,you,me,said),(will,tell),0.012658,23.700000,0.900000
+ (by,tell,said),(will,you,me),0.012658,45.707143,0.900000
+(tell,which),(will),0.018284,13.166667,1.000000
+(tell,which),(you),0.018284,11.850000,1.000000
+(will,tell,which),(you),0.018284,11.850000,1.000000
+ (tell,you,which),(will),0.018284,13.166667,1.000000
+(tell,which),(will,you),0.018284,21.545455,1.000000
+(tell,which),(you),0.018284,11.850000,1.000000
+(tell,which),(you),0.018284,12.258621,1.000000
+(tell,which),(will),0.018284,13.166667,1.000000
+(tell,which),(will),0.018284,14.220000,1.000000
+(will,which,tell),(you),0.018284,11.850000,1.000000
+ (tell,you,which),(will),0.018284,13.166667,1.000000
+(tell,which),(will,you),0.018284,21.545455,1.000000
+(will,tell,which),(you),0.018284,12.258621,1.000000
+ (tell,you,which),(will),0.018284,14.220000,1.000000
+(tell,which),(will,you),0.018284,22.218750,1.000000
+(tell,which,said),(you),0.012658,11.850000,1.000000
+ (you,which,said),(tell),0.012658,20.641935,0.900000
+(tell,which,said),(will),0.012658,13.166667,1.000000
+(tell,which,said),(you),0.012658,11.850000,1.000000
+ (you,which,said),(tell),0.012658,20.641935,0.900000
+(tell,which,said),(you),0.012658,12.258621,1.000000
+ (you,which,said),(tell),0.012658,20.641935,0.900000
+(tell,which,said),(will),0.012658,13.166667,1.000000
+(tell,which,said),(will),0.012658,14.220000,1.000000
+(will,tell,which,said),(you),0.012658,11.850000,1.000000
+ (will,you,which,said),(tell),0.012658,20.641935,0.900000
+ (tell,you,which,said),(will),0.012658,13.166667,1.000000
+(tell,which,said),(will,you),0.012658,21.545455,1.000000
+ (you,which,said),(will,tell),0.012658,23.700000,0.900000
+(which,will,tell,said),(you),0.012658,11.850000,1.000000
+ (which,will,you,said),(tell),0.012658,20.641935,0.900000
+ (which,tell,you,said),(will),0.012658,13.166667,1.000000
+(tell,which,said),(will,you),0.012658,21.545455,1.000000
+ (you,which,said),(will,tell),0.012658,23.700000,0.900000
+(will,tell,which,said),(you),0.012658,12.258621,1.000000
+ (will,you,which,said),(tell),0.012658,20.641935,0.900000
+ (tell,you,which,said),(will),0.012658,14.220000,1.000000
+(tell,which,said),(will,you),0.012658,22.218750,1.000000
+ (you,which,said),(will,tell),0.012658,23.700000,0.900000
+(by,tell,which),(you),0.011252,11.850000,1.000000
+(by,tell,which),(will),0.011252,13.166667,1.000000
+(tell,by,which),(you),0.011252,11.850000,1.000000
+(by,tell,which),(you),0.011252,12.258621,1.000000
+(tell,by,which),(will),0.011252,13.166667,1.000000
+(by,tell,which),(will),0.011252,14.220000,1.000000
+(by,will,which,tell),(you),0.011252,11.850000,1.000000
+ (by,tell,you,which),(will),0.011252,13.166667,1.000000
+(by,tell,which),(will,you),0.011252,21.545455,1.000000
+(which,by,will,tell),(you),0.011252,11.850000,1.000000
+ (which,by,tell,you),(will),0.011252,13.166667,1.000000
+(tell,by,which),(will,you),0.011252,21.545455,1.000000
+(by,will,which,tell),(you),0.011252,12.258621,1.000000
+ (by,tell,you,which),(will),0.011252,14.220000,1.000000
+(by,tell,which),(will,you),0.011252,22.218750,1.000000
+(tell,which,me),(said),0.011252,18.710526,1.000000
+(tell,which,me),(you),0.011252,11.850000,1.000000
+(tell,which,me),(will),0.011252,13.166667,1.000000
+(tell,which,me),(said),0.011252,18.710526,1.000000
+(tell,which,me),(said),0.011252,19.750000,1.000000
+ (tell,you,which,me),(said),0.011252,18.710526,1.000000
+(tell,which,me,said),(you),0.011252,11.850000,1.000000
+(tell,which,me),(you,said),0.011252,47.400000,1.000000
+(will,tell,which,me),(said),0.011252,18.710526,1.000000
+(tell,which,me,said),(will),0.011252,13.166667,1.000000
+(tell,which,me),(will,said),0.011252,39.500000,1.000000
+(tell,which,me),(you),0.011252,11.850000,1.000000
+(tell,which,me),(you),0.011252,12.258621,1.000000
+(tell,which,me),(will),0.011252,13.166667,1.000000
+(tell,which,me),(will),0.011252,14.220000,1.000000
+(will,tell,which,me),(you),0.011252,11.850000,1.000000
+ (tell,you,which,me),(will),0.011252,13.166667,1.000000
+(tell,which,me),(will,you),0.011252,21.545455,1.000000
+ (which,tell,me,you),(said),0.011252,18.710526,1.000000
+(which,tell,me,said),(you),0.011252,11.850000,1.000000
+(tell,which,me),(you,said),0.011252,47.400000,1.000000
+ (tell,you,which,me),(said),0.011252,19.750000,1.000000
+(tell,which,me,said),(you),0.011252,12.258621,1.000000
+(tell,which,me),(you,said),0.011252,47.400000,1.000000
+(which,will,tell,me),(said),0.011252,18.710526,1.000000
+(which,tell,me,said),(will),0.011252,13.166667,1.000000
+(tell,which,me),(will,said),0.011252,39.500000,1.000000
+(will,tell,which,me),(said),0.011252,19.750000,1.000000
+(tell,which,me,said),(will),0.011252,14.220000,1.000000
+(tell,which,me),(will,said),0.011252,39.500000,1.000000
+ (which,will,tell,me,you),(said),0.011252,18.710526,1.000000
+(which,will,tell,me,said),(you),0.011252,11.850000,1.000000
+ (which,tell,me,you,said),(will),0.011252,13.166667,1.000000
+(will,tell,which,me),(you,said),0.011252,47.400000,1.000000
+ (tell,you,which,me),(will,said),0.011252,39.500000,1.000000
+(tell,which,me,said),(will,you),0.011252,21.545455,1.000000
+(tell,which,me),(will,you,said),0.011252,50.785714,1.000000
+(which,will,tell,me),(you),0.011252,11.850000,1.000000
+ (which,tell,me,you),(will),0.011252,13.166667,1.000000
+(tell,which,me),(will,you),0.011252,21.545455,1.000000
+(will,tell,which,me),(you),0.011252,12.258621,1.000000
+ (tell,you,which,me),(will),0.011252,14.220000,1.000000
+(tell,which,me),(will,you),0.011252,22.218750,1.000000
+ (which,will,tell,me,you),(said),0.011252,18.710526,1.000000
+(which,will,tell,me,said),(you),0.011252,11.850000,1.000000
+ (which,tell,me,you,said),(will),0.011252,13.166667,1.000000
+(which,will,tell,me),(you,said),0.011252,47.400000,1.000000
+ (which,tell,me,you),(will,said),0.011252,39.500000,1.000000
+(which,tell,me,said),(will,you),0.011252,21.545455,1.000000
+ (which,will,tell,me,you),(said),0.011252,19.750000,1.000000
+(which,will,tell,me,said),(you),0.011252,12.258621,1.000000
+ (which,tell,me,you,said),(will),0.011252,14.220000,1.000000
+(tell,which,me),(will,you,said),0.011252,50.785714,1.000000
+(will,tell,which,me),(you,said),0.011252,47.400000,1.000000
+ (tell,you,which,me),(will,said),0.011252,39.500000,1.000000
+(tell,which,me,said),(will,you),0.011252,22.218750,1.000000
+(tell,which,me),(will,you,said),0.011252,50.785714,1.000000
+ (tell,Lord),(said),0.015471,18.710526,1.000000
+ (tell,Lord),(me),0.015471,20.911765,1.000000
+ (tell,Lord),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(you),0.014065,10.772727,0.909091
+(you,Lord),(tell),0.014065,20.850440,0.909091
+ (Lord,tell,said),(me),0.015471,20.911765,1.000000
+ (tell,me,Lord),(said),0.015471,18.710526,1.000000
+ (tell,Lord),(me,said),0.015471,41.823529,1.000000
+ (tell,Lord),(me),0.015471,20.911765,1.000000
+ (tell,Lord),(me),0.015471,22.218750,1.000000
+ (tell,Lord),(said),0.015471,18.710526,1.000000
+ (tell,Lord),(said),0.015471,19.750000,1.000000
+ (tell,me,Lord),(said),0.015471,18.710526,1.000000
+ (tell,said,Lord),(me),0.015471,20.911765,1.000000
+ (tell,Lord),(me,said),0.015471,41.823529,1.000000
+ (tell,me,Lord),(said),0.015471,19.750000,1.000000
+ (tell,said,Lord),(me),0.015471,22.218750,1.000000
+ (tell,Lord),(me,said),0.015471,41.823529,1.000000
+ (tell,Lord),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(will),0.014065,12.927273,0.909091
+ (will,tell,Lord),(me),0.014065,20.911765,1.000000
+ (will,me,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,me,Lord),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(will,me),0.014065,38.021390,0.909091
+ (will,tell,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,tell,said),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(will,said),0.014065,35.909091,0.909091
+ (will,Lord,tell),(me),0.014065,20.911765,1.000000
+ (will,me,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,me,Lord),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(will,me),0.014065,38.021390,0.909091
+ (will,tell,Lord),(me),0.014065,22.218750,1.000000
+ (will,me,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,me,Lord),(will),0.014065,12.927273,0.909091
+ (tell,Lord),(will,me),0.014065,43.090909,0.909091
+ (will,tell,Lord),(said),0.014065,18.710526,1.000000
+ (tell,said,Lord),(will),0.014065,11.969697,0.909091
+ (tell,Lord),(will,said),0.014065,35.909091,0.909091
+ (will,tell,Lord),(said),0.014065,19.750000,1.000000
+ (tell,said,Lord),(will),0.014065,12.927273,0.909091
+ (tell,Lord),(will,said),0.014065,35.909091,0.909091
+ (will,tell,me,Lord),(said),0.014065,18.710526,1.000000
+ (will,tell,said,Lord),(me),0.014065,20.911765,1.000000
+ (will,said,me,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,said,me,Lord),(will),0.014065,11.969697,0.909091
+ (will,tell,Lord),(me,said),0.014065,41.823529,1.000000
+ (will,me,Lord),(tell,said),0.014065,46.168831,0.909091
+ (tell,me,Lord),(will,said),0.014065,35.909091,0.909091
+ (tell,said,Lord),(will,me),0.014065,38.021390,0.909091
+ (tell,Lord),(will,me,said),0.014065,46.168831,0.909091
+ (will,tell,me,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,will,tell,said),(me),0.014065,20.911765,1.000000
+ (Lord,will,me,said),(tell),0.014065,20.850440,0.909091
+ (Lord,tell,me,said),(will),0.014065,11.969697,0.909091
+ (will,tell,Lord),(me,said),0.014065,41.823529,1.000000
+ (will,me,Lord),(tell,said),0.014065,46.168831,0.909091
+ (tell,me,Lord),(will,said),0.014065,35.909091,0.909091
+ (tell,said,Lord),(will,me),0.014065,38.021390,0.909091
+ (will,tell,me,Lord),(said),0.014065,19.750000,1.000000
+ (will,tell,said,Lord),(me),0.014065,22.218750,1.000000
+ (will,said,me,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,said,me,Lord),(will),0.014065,12.927273,0.909091
+ (tell,Lord),(will,me,said),0.014065,46.168831,0.909091
+ (will,tell,Lord),(me,said),0.014065,41.823529,1.000000
+ (will,me,Lord),(tell,said),0.014065,46.168831,0.909091
+ (tell,me,Lord),(will,said),0.014065,35.909091,0.909091
+ (tell,said,Lord),(will,me),0.014065,43.090909,0.909091
+ (tell,Lord),(will,me,said),0.014065,46.168831,0.909091
+ (will,tell,Lord),(you),0.014065,11.850000,1.000000
+(will,you,Lord),(tell),0.014065,20.850440,0.909091
+(tell,you,Lord),(will),0.014065,13.166667,1.000000
+ (tell,Lord),(will,you),0.014065,19.586777,0.909091
+(you,Lord),(will,tell),0.014065,23.939394,0.909091
+ (tell,Lord),(you),0.014065,10.772727,0.909091
+(you,Lord),(tell),0.014065,20.850440,0.909091
+ (tell,Lord),(you),0.014065,11.144201,0.909091
+(you,Lord),(tell),0.014065,20.850440,0.909091
+(tell,you,Lord),(me),0.014065,20.911765,1.000000
+ (tell,me,Lord),(you),0.014065,10.772727,0.909091
+(you,me,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,me),0.014065,40.397727,0.909091
+(you,Lord),(tell,me),0.014065,43.090909,0.909091
+ (Lord,tell,said),(you),0.014065,10.772727,0.909091
+(tell,you,Lord),(said),0.014065,18.710526,1.000000
+(Lord,you,said),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,said),0.014065,43.090909,0.909091
+(you,Lord),(tell,said),0.014065,46.168831,0.909091
+ (will,Lord,tell),(you),0.014065,11.850000,1.000000
+(will,you,Lord),(tell),0.014065,20.850440,0.909091
+(tell,you,Lord),(will),0.014065,13.166667,1.000000
+ (tell,Lord),(will,you),0.014065,19.586777,0.909091
+(you,Lord),(will,tell),0.014065,23.939394,0.909091
+ (will,tell,Lord),(you),0.014065,12.258621,1.000000
+(will,you,Lord),(tell),0.014065,20.850440,0.909091
+(tell,you,Lord),(will),0.014065,14.220000,1.000000
+ (tell,Lord),(will,you),0.014065,20.198864,0.909091
+(you,Lord),(will,tell),0.014065,23.939394,0.909091
+ (will,tell,me,Lord),(you),0.014065,11.850000,1.000000
+(will,tell,you,Lord),(me),0.014065,20.911765,1.000000
+(will,you,me,Lord),(tell),0.014065,22.935484,1.000000
+(tell,you,me,Lord),(will),0.014065,13.166667,1.000000
+ (will,tell,Lord),(you,me),0.014065,44.437500,1.000000
+ (will,me,Lord),(tell,you),0.014065,23.939394,0.909091
+(will,you,Lord),(tell,me),0.014065,43.090909,0.909091
+ (tell,me,Lord),(will,you),0.014065,19.586777,0.909091
+(tell,you,Lord),(will,me),0.014065,41.823529,1.000000
+(you,me,Lord),(will,tell),0.014065,26.333333,1.000000
+ (tell,Lord),(will,you,me),0.014065,43.090909,0.909091
+(you,Lord),(will,tell,me),0.014065,49.720280,0.909091
+(will,tell,you,Lord),(said),0.014065,18.710526,1.000000
+ (will,tell,said,Lord),(you),0.014065,11.850000,1.000000
+(will,said,you,Lord),(tell),0.014065,22.935484,1.000000
+(tell,said,you,Lord),(will),0.014065,13.166667,1.000000
+ (will,tell,Lord),(you,said),0.014065,47.400000,1.000000
+(will,you,Lord),(tell,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,said),0.014065,39.500000,1.000000
+ (tell,said,Lord),(will,you),0.014065,19.586777,0.909091
+(said,you,Lord),(will,tell),0.014065,26.333333,1.000000
+ (tell,Lord),(will,you,said),0.014065,46.168831,0.909091
+(you,Lord),(will,tell,said),0.014065,49.720280,0.909091
+ (tell,me,Lord),(you),0.014065,10.772727,0.909091
+(tell,you,Lord),(me),0.014065,20.911765,1.000000
+(you,me,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,me),0.014065,40.397727,0.909091
+(you,Lord),(tell,me),0.014065,43.090909,0.909091
+ (tell,me,Lord),(you),0.014065,11.144201,0.909091
+(tell,you,Lord),(me),0.014065,22.218750,1.000000
+(you,me,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,me),0.014065,43.090909,0.909091
+(you,Lord),(tell,me),0.014065,43.090909,0.909091
+(tell,you,Lord),(said),0.014065,18.710526,1.000000
+ (tell,said,Lord),(you),0.014065,10.772727,0.909091
+(said,you,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,said),0.014065,43.090909,0.909091
+(you,Lord),(tell,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(said),0.014065,19.750000,1.000000
+ (tell,said,Lord),(you),0.014065,11.144201,0.909091
+(said,you,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,said),0.014065,43.090909,0.909091
+(you,Lord),(tell,said),0.014065,46.168831,0.909091
+(tell,you,me,Lord),(said),0.014065,18.710526,1.000000
+ (tell,said,me,Lord),(you),0.014065,10.772727,0.909091
+(tell,said,you,Lord),(me),0.014065,20.911765,1.000000
+(said,you,me,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,me,Lord),(you,said),0.014065,43.090909,0.909091
+(tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (tell,said,Lord),(you,me),0.014065,40.397727,0.909091
+(you,me,Lord),(tell,said),0.014065,50.785714,1.000000
+(said,you,Lord),(tell,me),0.014065,47.400000,1.000000
+ (tell,Lord),(you,me,said),0.014065,49.720280,0.909091
+(you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+ (will,tell,me,Lord),(you),0.014065,11.850000,1.000000
+(will,tell,you,Lord),(me),0.014065,20.911765,1.000000
+(will,me,you,Lord),(tell),0.014065,22.935484,1.000000
+(tell,me,you,Lord),(will),0.014065,13.166667,1.000000
+ (will,Lord,tell),(you,me),0.014065,44.437500,1.000000
+ (will,me,Lord),(tell,you),0.014065,23.939394,0.909091
+(will,you,Lord),(tell,me),0.014065,43.090909,0.909091
+ (tell,me,Lord),(will,you),0.014065,19.586777,0.909091
+(tell,you,Lord),(will,me),0.014065,41.823529,1.000000
+(you,me,Lord),(will,tell),0.014065,26.333333,1.000000
+ (will,tell,me,Lord),(you),0.014065,12.258621,1.000000
+(will,tell,you,Lord),(me),0.014065,22.218750,1.000000
+(will,you,me,Lord),(tell),0.014065,22.935484,1.000000
+(tell,you,me,Lord),(will),0.014065,14.220000,1.000000
+ (tell,Lord),(will,you,me),0.014065,43.090909,0.909091
+(you,Lord),(will,tell,me),0.014065,49.720280,0.909091
+ (will,tell,Lord),(you,me),0.014065,47.400000,1.000000
+ (will,me,Lord),(tell,you),0.014065,23.939394,0.909091
+(will,you,Lord),(tell,me),0.014065,43.090909,0.909091
+ (tell,me,Lord),(will,you),0.014065,20.198864,0.909091
+(tell,you,Lord),(will,me),0.014065,47.400000,1.000000
+(you,me,Lord),(will,tell),0.014065,26.333333,1.000000
+ (tell,Lord),(will,you,me),0.014065,46.168831,0.909091
+(you,Lord),(will,me,tell),0.014065,49.720280,0.909091
+(will,tell,you,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,will,tell,said),(you),0.014065,11.850000,1.000000
+(Lord,will,you,said),(tell),0.014065,22.935484,1.000000
+(Lord,tell,you,said),(will),0.014065,13.166667,1.000000
+ (will,tell,Lord),(you,said),0.014065,47.400000,1.000000
+(will,you,Lord),(tell,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,said),0.014065,39.500000,1.000000
+ (tell,said,Lord),(will,you),0.014065,19.586777,0.909091
+(said,you,Lord),(will,tell),0.014065,26.333333,1.000000
+(will,tell,you,Lord),(said),0.014065,19.750000,1.000000
+ (will,tell,said,Lord),(you),0.014065,12.258621,1.000000
+(will,said,you,Lord),(tell),0.014065,22.935484,1.000000
+(tell,said,you,Lord),(will),0.014065,14.220000,1.000000
+ (tell,Lord),(will,you,said),0.014065,46.168831,0.909091
+(you,Lord),(will,tell,said),0.014065,49.720280,0.909091
+ (will,tell,Lord),(you,said),0.014065,47.400000,1.000000
+(will,you,Lord),(tell,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,said),0.014065,39.500000,1.000000
+ (tell,said,Lord),(will,you),0.014065,20.198864,0.909091
+(said,you,Lord),(will,tell),0.014065,26.333333,1.000000
+ (tell,Lord),(will,you,said),0.014065,46.168831,0.909091
+(you,Lord),(will,said,tell),0.014065,49.720280,0.909091
+(will,tell,me,you,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,will,tell,me,said),(you),0.014065,11.850000,1.000000
+(Lord,will,tell,you,said),(me),0.014065,20.911765,1.000000
+(Lord,will,me,you,said),(tell),0.014065,22.935484,1.000000
+(Lord,tell,me,you,said),(will),0.014065,13.166667,1.000000
+ (will,tell,me,Lord),(you,said),0.014065,47.400000,1.000000
+(will,tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (will,tell,said,Lord),(you,me),0.014065,44.437500,1.000000
+(will,you,me,Lord),(tell,said),0.014065,50.785714,1.000000
+ (will,said,me,Lord),(tell,you),0.014065,23.939394,0.909091
+(will,said,you,Lord),(tell,me),0.014065,47.400000,1.000000
+(tell,you,me,Lord),(will,said),0.014065,39.500000,1.000000
+ (tell,said,me,Lord),(will,you),0.014065,19.586777,0.909091
+(tell,said,you,Lord),(will,me),0.014065,41.823529,1.000000
+(said,you,me,Lord),(will,tell),0.014065,26.333333,1.000000
+ (will,tell,Lord),(you,me,said),0.014065,54.692308,1.000000
+ (will,me,Lord),(tell,you,said),0.014065,49.720280,0.909091
+(will,you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+ (tell,me,Lord),(will,you,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,me,said),0.014065,50.785714,1.000000
+ (tell,said,Lord),(will,you,me),0.014065,43.090909,0.909091
+(you,me,Lord),(will,tell,said),0.014065,54.692308,1.000000
+(said,you,Lord),(will,tell,me),0.014065,54.692308,1.000000
+ (tell,Lord),(will,you,me,said),0.014065,49.720280,0.909091
+(you,Lord),(will,tell,me,said),0.014065,53.863636,0.909091
+(tell,me,you,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,tell,me,said),(you),0.014065,10.772727,0.909091
+(Lord,tell,you,said),(me),0.014065,20.911765,1.000000
+(Lord,me,you,said),(tell),0.014065,22.935484,1.000000
+ (tell,me,Lord),(you,said),0.014065,43.090909,0.909091
+(tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (tell,said,Lord),(you,me),0.014065,40.397727,0.909091
+(you,me,Lord),(tell,said),0.014065,50.785714,1.000000
+(said,you,Lord),(tell,me),0.014065,47.400000,1.000000
+(tell,you,me,Lord),(said),0.014065,19.750000,1.000000
+ (tell,said,me,Lord),(you),0.014065,11.144201,0.909091
+(tell,said,you,Lord),(me),0.014065,22.218750,1.000000
+(said,you,me,Lord),(tell),0.014065,22.935484,1.000000
+ (tell,Lord),(you,me,said),0.014065,49.720280,0.909091
+(you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+ (tell,me,Lord),(you,said),0.014065,43.090909,0.909091
+(tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (tell,said,Lord),(you,me),0.014065,43.090909,0.909091
+(you,me,Lord),(tell,said),0.014065,50.785714,1.000000
+(said,you,Lord),(tell,me),0.014065,47.400000,1.000000
+ (tell,Lord),(you,me,said),0.014065,49.720280,0.909091
+(you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+(will,tell,me,you,Lord),(said),0.014065,18.710526,1.000000
+ (said,will,tell,me,Lord),(you),0.014065,11.850000,1.000000
+(said,will,tell,you,Lord),(me),0.014065,20.911765,1.000000
+(said,will,me,you,Lord),(tell),0.014065,22.935484,1.000000
+(said,tell,me,you,Lord),(will),0.014065,13.166667,1.000000
+ (will,tell,me,Lord),(you,said),0.014065,47.400000,1.000000
+(will,tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (Lord,will,tell,said),(you,me),0.014065,44.437500,1.000000
+(will,me,you,Lord),(tell,said),0.014065,50.785714,1.000000
+ (Lord,will,me,said),(tell,you),0.014065,23.939394,0.909091
+(Lord,will,you,said),(tell,me),0.014065,47.400000,1.000000
+(tell,me,you,Lord),(will,said),0.014065,39.500000,1.000000
+ (Lord,tell,me,said),(will,you),0.014065,19.586777,0.909091
+(Lord,tell,you,said),(will,me),0.014065,41.823529,1.000000
+(Lord,me,you,said),(will,tell),0.014065,26.333333,1.000000
+(will,tell,me,you,Lord),(said),0.014065,19.750000,1.000000
+ (Lord,will,tell,me,said),(you),0.014065,12.258621,1.000000
+(Lord,will,tell,you,said),(me),0.014065,22.218750,1.000000
+(Lord,will,me,you,said),(tell),0.014065,22.935484,1.000000
+(Lord,tell,me,you,said),(will),0.014065,14.220000,1.000000
+ (will,tell,Lord),(you,me,said),0.014065,54.692308,1.000000
+ (will,me,Lord),(tell,you,said),0.014065,49.720280,0.909091
+(will,you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+ (tell,me,Lord),(will,you,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,me,said),0.014065,50.785714,1.000000
+ (tell,said,Lord),(will,you,me),0.014065,43.090909,0.909091
+(you,me,Lord),(will,tell,said),0.014065,54.692308,1.000000
+(said,you,Lord),(will,tell,me),0.014065,54.692308,1.000000
+ (will,tell,me,Lord),(you,said),0.014065,47.400000,1.000000
+(will,tell,you,Lord),(me,said),0.014065,41.823529,1.000000
+ (will,tell,said,Lord),(you,me),0.014065,47.400000,1.000000
+(will,you,me,Lord),(tell,said),0.014065,50.785714,1.000000
+ (will,said,me,Lord),(tell,you),0.014065,23.939394,0.909091
+(will,said,you,Lord),(tell,me),0.014065,47.400000,1.000000
+(tell,you,me,Lord),(will,said),0.014065,39.500000,1.000000
+ (tell,said,me,Lord),(will,you),0.014065,20.198864,0.909091
+(tell,said,you,Lord),(will,me),0.014065,47.400000,1.000000
+(said,you,me,Lord),(will,tell),0.014065,26.333333,1.000000
+ (tell,Lord),(will,you,me,said),0.014065,49.720280,0.909091
+(you,Lord),(will,tell,me,said),0.014065,53.863636,0.909091
+ (will,tell,Lord),(you,me,said),0.014065,54.692308,1.000000
+ (will,me,Lord),(tell,you,said),0.014065,49.720280,0.909091
+(will,you,Lord),(tell,me,said),0.014065,49.720280,0.909091
+ (tell,me,Lord),(will,you,said),0.014065,46.168831,0.909091
+(tell,you,Lord),(will,me,said),0.014065,50.785714,1.000000
+ (tell,said,Lord),(will,you,me),0.014065,46.168831,0.909091
+(you,me,Lord),(will,said,tell),0.014065,54.692308,1.000000
+(said,you,Lord),(will,me,tell),0.014065,54.692308,1.000000
+ (tell,Lord),(will,me,you,said),0.014065,49.720280,0.909091
+(you,Lord),(will,tell,me,said),0.014065,53.863636,0.909091
+ (by,tell,Lord),(me),0.012658,20.911765,1.000000
+ (by,tell,said),(Lord),0.012658,19.996875,0.900000
+ (by,tell,Lord),(said),0.012658,18.710526,1.000000
+(by,you,Lord),(tell),0.011252,22.935484,1.000000
+ (tell,by,Lord),(me),0.012658,20.911765,1.000000
+ (by,tell,Lord),(me),0.012658,22.218750,1.000000
+ (tell,by,Lord),(said),0.012658,18.710526,1.000000
+ (tell,by,said),(Lord),0.012658,19.996875,0.900000
+ (by,tell,Lord),(said),0.012658,19.750000,1.000000
+ (by,tell,said),(Lord),0.012658,19.996875,0.900000
+(by,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell),0.011252,22.935484,1.000000
+ (by,tell,me,Lord),(said),0.012658,18.710526,1.000000
+ (by,tell,said,Lord),(me),0.012658,20.911765,1.000000
+ (by,tell,me,said),(Lord),0.012658,19.996875,0.900000
+ (by,tell,Lord),(me,said),0.012658,41.823529,1.000000
+ (by,tell,said),(me,Lord),0.012658,42.660000,0.900000
+(by,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,you,me,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,me),0.011252,47.400000,1.000000
+ (by,will,Lord,tell),(me),0.011252,20.911765,1.000000
+(by,tell,you,Lord),(said),0.011252,18.710526,1.000000
+(by,said,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,said),0.011252,50.785714,1.000000
+ (by,will,tell,Lord),(said),0.011252,18.710526,1.000000
+ (by,will,Lord,tell),(you),0.011252,11.850000,1.000000
+(by,will,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,you,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,tell),0.011252,26.333333,1.000000
+ (by,tell,me,Lord),(said),0.012658,18.710526,1.000000
+ (Lord,by,tell,said),(me),0.012658,20.911765,1.000000
+ (by,tell,me,said),(Lord),0.012658,19.996875,0.900000
+ (tell,by,Lord),(me,said),0.012658,41.823529,1.000000
+ (tell,by,said),(me,Lord),0.012658,42.660000,0.900000
+ (by,tell,me,Lord),(said),0.012658,19.750000,1.000000
+ (by,tell,said,Lord),(me),0.012658,22.218750,1.000000
+ (by,tell,me,said),(Lord),0.012658,19.996875,0.900000
+ (by,tell,Lord),(me,said),0.012658,41.823529,1.000000
+ (by,tell,said),(me,Lord),0.012658,42.660000,0.900000
+(by,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,tell,you,Lord),(me),0.011252,22.218750,1.000000
+(by,you,me,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,me),0.011252,47.400000,1.000000
+ (by,will,tell,Lord),(me),0.011252,20.911765,1.000000
+ (by,will,Lord,tell),(me),0.011252,22.218750,1.000000
+(by,tell,you,Lord),(said),0.011252,18.710526,1.000000
+(Lord,by,you,said),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,you,Lord),(said),0.011252,19.750000,1.000000
+(by,said,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,said),0.011252,50.785714,1.000000
+ (by,will,tell,Lord),(said),0.011252,18.710526,1.000000
+ (by,will,Lord,tell),(said),0.011252,19.750000,1.000000
+ (by,will,tell,Lord),(you),0.011252,11.850000,1.000000
+(by,will,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,you,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,tell),0.011252,26.333333,1.000000
+ (by,will,Lord,tell),(you),0.011252,12.258621,1.000000
+(by,will,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,you,Lord),(will),0.011252,14.220000,1.000000
+(by,you,Lord),(will,tell),0.011252,26.333333,1.000000
+(by,tell,me,you,Lord),(said),0.011252,18.710526,1.000000
+(Lord,by,tell,you,said),(me),0.011252,20.911765,1.000000
+(Lord,by,me,you,said),(tell),0.011252,22.935484,1.000000
+(by,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,you,me,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,said,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+ (by,will,tell,me,Lord),(said),0.011252,18.710526,1.000000
+ (Lord,by,will,tell,said),(me),0.011252,20.911765,1.000000
+ (by,will,tell,Lord),(me,said),0.011252,41.823529,1.000000
+ (by,will,tell,me,Lord),(you),0.011252,11.850000,1.000000
+(by,will,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,will,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,me,you,Lord),(will),0.011252,13.166667,1.000000
+ (by,will,Lord,tell),(you,me),0.011252,44.437500,1.000000
+(by,will,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,tell,you,Lord),(will,me),0.011252,41.823529,1.000000
+(by,you,me,Lord),(will,tell),0.011252,26.333333,1.000000
+(by,you,Lord),(will,tell,me),0.011252,54.692308,1.000000
+(by,will,tell,you,Lord),(said),0.011252,18.710526,1.000000
+ (Lord,by,will,tell,said),(you),0.011252,11.850000,1.000000
+(Lord,by,will,you,said),(tell),0.011252,22.935484,1.000000
+(Lord,by,tell,you,said),(will),0.011252,13.166667,1.000000
+ (by,will,tell,Lord),(you,said),0.011252,47.400000,1.000000
+(by,will,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,you,Lord),(will,said),0.011252,39.500000,1.000000
+(by,said,you,Lord),(will,tell),0.011252,26.333333,1.000000
+(by,you,Lord),(will,tell,said),0.011252,54.692308,1.000000
+(by,tell,me,you,Lord),(said),0.011252,18.710526,1.000000
+(by,said,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,said,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,me,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(Lord,by,you,said),(tell,me),0.011252,47.400000,1.000000
+(by,tell,me,you,Lord),(said),0.011252,19.750000,1.000000
+(Lord,by,tell,you,said),(me),0.011252,22.218750,1.000000
+(Lord,by,me,you,said),(tell),0.011252,22.935484,1.000000
+(by,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+(by,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,you,me,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,said,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+ (Lord,by,will,tell,said),(me),0.011252,20.911765,1.000000
+ (by,will,tell,me,Lord),(said),0.011252,18.710526,1.000000
+ (by,will,tell,Lord),(me,said),0.011252,41.823529,1.000000
+ (by,said,will,tell,Lord),(me),0.011252,22.218750,1.000000
+ (by,will,tell,me,Lord),(said),0.011252,19.750000,1.000000
+ (by,will,Lord,tell),(me,said),0.011252,41.823529,1.000000
+ (by,will,tell,me,Lord),(you),0.011252,11.850000,1.000000
+(by,will,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,will,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,me,you,Lord),(will),0.011252,13.166667,1.000000
+ (by,will,tell,Lord),(you,me),0.011252,44.437500,1.000000
+(by,will,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,tell,you,Lord),(will,me),0.011252,41.823529,1.000000
+(by,me,you,Lord),(will,tell),0.011252,26.333333,1.000000
+ (by,will,tell,me,Lord),(you),0.011252,12.258621,1.000000
+(by,will,tell,you,Lord),(me),0.011252,22.218750,1.000000
+(by,will,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,tell,me,you,Lord),(will),0.011252,14.220000,1.000000
+(by,you,Lord),(will,tell,me),0.011252,54.692308,1.000000
+ (by,will,Lord,tell),(you,me),0.011252,47.400000,1.000000
+(by,will,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,tell,you,Lord),(will,me),0.011252,47.400000,1.000000
+(by,you,me,Lord),(will,tell),0.011252,26.333333,1.000000
+(by,you,Lord),(will,me,tell),0.011252,54.692308,1.000000
+ (Lord,by,will,tell,said),(you),0.011252,11.850000,1.000000
+(Lord,by,will,you,said),(tell),0.011252,22.935484,1.000000
+(Lord,by,tell,you,said),(will),0.011252,13.166667,1.000000
+(by,will,tell,you,Lord),(said),0.011252,18.710526,1.000000
+(by,said,you,Lord),(will,tell),0.011252,26.333333,1.000000
+ (by,will,tell,Lord),(you,said),0.011252,47.400000,1.000000
+(by,will,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,you,Lord),(will,said),0.011252,39.500000,1.000000
+ (by,said,will,tell,Lord),(you),0.011252,12.258621,1.000000
+(by,said,will,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,said,tell,you,Lord),(will),0.011252,14.220000,1.000000
+(by,will,tell,you,Lord),(said),0.011252,19.750000,1.000000
+(by,you,Lord),(will,tell,said),0.011252,54.692308,1.000000
+(by,Lord,you,said),(will,tell),0.011252,26.333333,1.000000
+ (by,will,Lord,tell),(you,said),0.011252,47.400000,1.000000
+(by,will,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,you,Lord),(will,said),0.011252,39.500000,1.000000
+(by,you,Lord),(will,tell,said),0.011252,54.692308,1.000000
+(by,will,tell,me,you,Lord),(said),0.011252,18.710526,1.000000
+ (by,said,will,tell,me,Lord),(you),0.011252,11.850000,1.000000
+(by,said,will,tell,you,Lord),(me),0.011252,20.911765,1.000000
+(by,said,will,me,you,Lord),(tell),0.011252,22.935484,1.000000
+(by,said,tell,me,you,Lord),(will),0.011252,13.166667,1.000000
+ (by,will,tell,me,Lord),(you,said),0.011252,47.400000,1.000000
+(by,will,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+ (Lord,by,will,tell,said),(you,me),0.011252,44.437500,1.000000
+(by,will,me,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(Lord,by,will,you,said),(tell,me),0.011252,47.400000,1.000000
+(by,tell,me,you,Lord),(will,said),0.011252,39.500000,1.000000
+(Lord,by,tell,you,said),(will,me),0.011252,41.823529,1.000000
+(Lord,by,me,you,said),(will,tell),0.011252,26.333333,1.000000
+ (by,will,tell,Lord),(you,me,said),0.011252,54.692308,1.000000
+(by,will,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+(by,tell,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+(by,you,me,Lord),(will,tell,said),0.011252,54.692308,1.000000
+(by,said,you,Lord),(will,tell,me),0.011252,54.692308,1.000000
+(by,you,Lord),(will,tell,me,said),0.011252,59.250000,1.000000
+ (Lord,by,will,tell,me,said),(you),0.011252,11.850000,1.000000
+(Lord,by,will,tell,you,said),(me),0.011252,20.911765,1.000000
+(Lord,by,will,me,you,said),(tell),0.011252,22.935484,1.000000
+(Lord,by,tell,me,you,said),(will),0.011252,13.166667,1.000000
+(by,will,tell,me,you,Lord),(said),0.011252,18.710526,1.000000
+ (Lord,by,will,tell,said),(you,me),0.011252,44.437500,1.000000
+(Lord,by,will,you,said),(tell,me),0.011252,47.400000,1.000000
+(Lord,by,tell,you,said),(will,me),0.011252,41.823529,1.000000
+(Lord,by,me,you,said),(will,tell),0.011252,26.333333,1.000000
+ (by,will,tell,me,Lord),(you,said),0.011252,47.400000,1.000000
+(by,will,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,will,me,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,me,you,Lord),(will,said),0.011252,39.500000,1.000000
+ (Lord,by,will,tell,me,said),(you),0.011252,12.258621,1.000000
+(Lord,by,will,tell,you,said),(me),0.011252,22.218750,1.000000
+(Lord,by,will,me,you,said),(tell),0.011252,22.935484,1.000000
+(Lord,by,tell,me,you,said),(will),0.011252,14.220000,1.000000
+(by,will,tell,me,you,Lord),(said),0.011252,19.750000,1.000000
+(by,said,you,Lord),(will,tell,me),0.011252,54.692308,1.000000
+ (by,will,tell,Lord),(you,me,said),0.011252,54.692308,1.000000
+(by,will,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+(by,tell,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+(by,me,you,Lord),(will,tell,said),0.011252,54.692308,1.000000
+ (by,said,will,tell,Lord),(you,me),0.011252,47.400000,1.000000
+(by,said,will,you,Lord),(tell,me),0.011252,47.400000,1.000000
+(by,said,tell,you,Lord),(will,me),0.011252,47.400000,1.000000
+(by,said,me,you,Lord),(will,tell),0.011252,26.333333,1.000000
+ (by,will,tell,me,Lord),(you,said),0.011252,47.400000,1.000000
+(by,will,tell,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,will,me,you,Lord),(tell,said),0.011252,50.785714,1.000000
+(by,tell,me,you,Lord),(will,said),0.011252,39.500000,1.000000
+(by,you,Lord),(will,tell,me,said),0.011252,59.250000,1.000000
+(by,Lord,you,said),(will,me,tell),0.011252,54.692308,1.000000
+ (by,will,Lord,tell),(you,me,said),0.011252,54.692308,1.000000
+(by,will,you,Lord),(tell,me,said),0.011252,54.692308,1.000000
+(by,tell,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+(by,you,me,Lord),(will,tell,said),0.011252,54.692308,1.000000
+(by,you,Lord),(will,tell,me,said),0.011252,59.250000,1.000000
+ (tell,that),(will),0.014065,13.166667,1.000000
+ (tell,that),(you),0.014065,11.850000,1.000000
+ (will,tell,that),(you),0.014065,11.850000,1.000000
+(tell,you,that),(will),0.014065,13.166667,1.000000
+ (tell,that),(will,you),0.014065,21.545455,1.000000
+ (tell,that),(you),0.014065,11.850000,1.000000
+ (tell,that),(you),0.014065,12.258621,1.000000
+ (tell,that),(will),0.014065,13.166667,1.000000
+ (tell,that),(will),0.014065,14.220000,1.000000
+ (will,that,tell),(you),0.014065,11.850000,1.000000
+(tell,you,that),(will),0.014065,13.166667,1.000000
+ (tell,that),(will,you),0.014065,21.545455,1.000000
+ (will,tell,that),(you),0.014065,12.258621,1.000000
+(tell,you,that),(will),0.014065,14.220000,1.000000
+ (tell,that),(will,you),0.014065,22.218750,1.000000
+(tell,which,that),(you),0.011252,11.850000,1.000000
+(tell,which,that),(will),0.011252,13.166667,1.000000
+(tell,which,that),(you),0.011252,11.850000,1.000000
+(tell,which,that),(you),0.011252,12.258621,1.000000
+(tell,which,that),(will),0.011252,13.166667,1.000000
+(tell,which,that),(will),0.011252,14.220000,1.000000
+(will,tell,which,that),(you),0.011252,11.850000,1.000000
+ (tell,you,which,that),(will),0.011252,13.166667,1.000000
+(tell,which,that),(will,you),0.011252,21.545455,1.000000
+(which,that,will,tell),(you),0.011252,11.850000,1.000000
+ (which,that,tell,you),(will),0.011252,13.166667,1.000000
+(tell,which,that),(will,you),0.011252,21.545455,1.000000
+(will,tell,which,that),(you),0.011252,12.258621,1.000000
+ (tell,you,which,that),(will),0.011252,14.220000,1.000000
+(tell,which,that),(will,you),0.011252,22.218750,1.000000
+ (tell,that,said),(you),0.011252,11.850000,1.000000
+ (tell,that,said),(will),0.011252,13.166667,1.000000
+ (tell,that,said),(you),0.011252,11.850000,1.000000
+ (tell,that,said),(you),0.011252,12.258621,1.000000
+ (tell,that,said),(will),0.011252,13.166667,1.000000
+ (tell,that,said),(will),0.011252,14.220000,1.000000
+ (will,tell,that,said),(you),0.011252,11.850000,1.000000
+(tell,you,that,said),(will),0.011252,13.166667,1.000000
+ (tell,that,said),(will,you),0.011252,21.545455,1.000000
+ (that,will,tell,said),(you),0.011252,11.850000,1.000000
+(that,tell,you,said),(will),0.011252,13.166667,1.000000
+ (tell,that,said),(will,you),0.011252,21.545455,1.000000
+ (will,tell,that,said),(you),0.011252,12.258621,1.000000
+(tell,you,that,said),(will),0.011252,14.220000,1.000000
+ (tell,that,said),(will,you),0.011252,22.218750,1.000000
+ (tell,me,that),(said),0.011252,18.710526,1.000000
+ (tell,that,said),(me),0.011252,20.911765,1.000000
+ (tell,me,that),(you),0.011252,11.850000,1.000000
+ (tell,me,that),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(said),0.011252,18.710526,1.000000
+ (tell,that,said),(me),0.011252,20.911765,1.000000
+ (tell,me,that),(said),0.011252,19.750000,1.000000
+ (tell,that,said),(me),0.011252,22.218750,1.000000
+(tell,you,me,that),(said),0.011252,18.710526,1.000000
+ (tell,me,that,said),(you),0.011252,11.850000,1.000000
+(tell,you,that,said),(me),0.011252,20.911765,1.000000
+ (tell,me,that),(you,said),0.011252,47.400000,1.000000
+ (tell,that,said),(you,me),0.011252,44.437500,1.000000
+ (will,tell,me,that),(said),0.011252,18.710526,1.000000
+ (will,tell,that,said),(me),0.011252,20.911765,1.000000
+ (tell,me,that,said),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(will,said),0.011252,39.500000,1.000000
+ (tell,that,said),(will,me),0.011252,41.823529,1.000000
+ (tell,me,that),(you),0.011252,11.850000,1.000000
+ (tell,me,that),(you),0.011252,12.258621,1.000000
+ (tell,me,that),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(will),0.011252,14.220000,1.000000
+ (will,tell,me,that),(you),0.011252,11.850000,1.000000
+(tell,you,me,that),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(will,you),0.011252,21.545455,1.000000
+(that,tell,me,you),(said),0.011252,18.710526,1.000000
+ (that,tell,me,said),(you),0.011252,11.850000,1.000000
+(that,tell,you,said),(me),0.011252,20.911765,1.000000
+ (tell,me,that),(you,said),0.011252,47.400000,1.000000
+ (tell,that,said),(you,me),0.011252,44.437500,1.000000
+(tell,you,me,that),(said),0.011252,19.750000,1.000000
+ (tell,me,that,said),(you),0.011252,12.258621,1.000000
+(tell,you,that,said),(me),0.011252,22.218750,1.000000
+ (tell,me,that),(you,said),0.011252,47.400000,1.000000
+ (tell,that,said),(you,me),0.011252,47.400000,1.000000
+ (that,will,tell,me),(said),0.011252,18.710526,1.000000
+ (that,will,tell,said),(me),0.011252,20.911765,1.000000
+ (that,tell,me,said),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(will,said),0.011252,39.500000,1.000000
+ (tell,that,said),(will,me),0.011252,41.823529,1.000000
+ (will,tell,me,that),(said),0.011252,19.750000,1.000000
+ (will,tell,that,said),(me),0.011252,22.218750,1.000000
+ (tell,me,that,said),(will),0.011252,14.220000,1.000000
+ (tell,me,that),(will,said),0.011252,39.500000,1.000000
+ (tell,that,said),(will,me),0.011252,47.400000,1.000000
+(that,will,tell,me,you),(said),0.011252,18.710526,1.000000
+ (that,will,tell,me,said),(you),0.011252,11.850000,1.000000
+(that,will,tell,you,said),(me),0.011252,20.911765,1.000000
+(that,tell,me,you,said),(will),0.011252,13.166667,1.000000
+ (will,tell,me,that),(you,said),0.011252,47.400000,1.000000
+ (will,tell,that,said),(you,me),0.011252,44.437500,1.000000
+(tell,you,me,that),(will,said),0.011252,39.500000,1.000000
+ (tell,me,that,said),(will,you),0.011252,21.545455,1.000000
+(tell,you,that,said),(will,me),0.011252,41.823529,1.000000
+ (tell,me,that),(will,you,said),0.011252,50.785714,1.000000
+ (tell,that,said),(will,you,me),0.011252,47.400000,1.000000
+ (that,will,tell,me),(you),0.011252,11.850000,1.000000
+(that,tell,me,you),(will),0.011252,13.166667,1.000000
+ (tell,me,that),(will,you),0.011252,21.545455,1.000000
+ (will,tell,me,that),(you),0.011252,12.258621,1.000000
+(tell,you,me,that),(will),0.011252,14.220000,1.000000
+ (tell,me,that),(will,you),0.011252,22.218750,1.000000
+(that,will,tell,me,you),(said),0.011252,18.710526,1.000000
+ (that,will,tell,me,said),(you),0.011252,11.850000,1.000000
+(that,will,tell,you,said),(me),0.011252,20.911765,1.000000
+(that,tell,me,you,said),(will),0.011252,13.166667,1.000000
+ (that,will,tell,me),(you,said),0.011252,47.400000,1.000000
+ (that,will,tell,said),(you,me),0.011252,44.437500,1.000000
+(that,tell,me,you),(will,said),0.011252,39.500000,1.000000
+ (that,tell,me,said),(will,you),0.011252,21.545455,1.000000
+(that,tell,you,said),(will,me),0.011252,41.823529,1.000000
+(that,will,tell,me,you),(said),0.011252,19.750000,1.000000
+ (that,will,tell,me,said),(you),0.011252,12.258621,1.000000
+(that,will,tell,you,said),(me),0.011252,22.218750,1.000000
+(that,tell,me,you,said),(will),0.011252,14.220000,1.000000
+ (tell,me,that),(will,you,said),0.011252,50.785714,1.000000
+ (tell,that,said),(will,you,me),0.011252,47.400000,1.000000
+ (will,tell,me,that),(you,said),0.011252,47.400000,1.000000
+ (will,tell,that,said),(you,me),0.011252,47.400000,1.000000
+(tell,you,me,that),(will,said),0.011252,39.500000,1.000000
+ (tell,me,that,said),(will,you),0.011252,22.218750,1.000000
+(tell,you,that,said),(will,me),0.011252,47.400000,1.000000
+ (tell,me,that),(will,you,said),0.011252,50.785714,1.000000
+ (tell,that,said),(will,you,me),0.011252,50.785714,1.000000
+ (have,tell),(will),0.012658,13.166667,1.000000
+ (have,tell),(you),0.012658,11.850000,1.000000
+(have,you,tell),(will),0.012658,13.166667,1.000000
+ (will,have,tell),(you),0.012658,11.850000,1.000000
+ (have,tell),(will,you),0.012658,21.545455,1.000000
+ (tell,have),(will),0.012658,13.166667,1.000000
+ (have,tell),(will),0.012658,14.220000,1.000000
+ (have,tell),(you),0.012658,11.850000,1.000000
+ (have,tell),(you),0.012658,12.258621,1.000000
+ (will,have,tell),(you),0.012658,11.850000,1.000000
+(tell,you,have),(will),0.012658,13.166667,1.000000
+ (tell,have),(will,you),0.012658,21.545455,1.000000
+ (will,tell,have),(you),0.012658,12.258621,1.000000
+(have,tell,you),(will),0.012658,14.220000,1.000000
+ (have,tell),(will,you),0.012658,22.218750,1.000000
+ (will,tell,he),(you),0.011252,11.850000,1.000000
+(tell,you,he),(will),0.011252,13.166667,1.000000
+ (will,he,tell),(you),0.011252,11.850000,1.000000
+(tell,you,he),(will),0.011252,13.166667,1.000000
+ (will,tell,he),(you),0.011252,12.258621,1.000000
+(tell,you,he),(will),0.011252,14.220000,1.000000
+(tell,who),(will),0.015471,12.069444,0.916667
+(tell,who),(you),0.015471,10.862500,0.916667
+(tell,who),(will),0.015471,12.069444,0.916667
+(tell,who),(will),0.015471,13.035000,0.916667
+(tell,who),(you),0.015471,10.862500,0.916667
+(tell,who),(you),0.015471,11.237069,0.916667
+(will,tell,who),(you),0.015471,11.850000,1.000000
+ (tell,who,you),(will),0.015471,13.166667,1.000000
+(tell,who),(will,you),0.015471,19.750000,0.916667
+(by,tell,who),(will),0.011252,13.166667,1.000000
+(by,tell,who),(you),0.011252,11.850000,1.000000
+(will,who,tell),(you),0.015471,11.850000,1.000000
+ (tell,who,you),(will),0.015471,13.166667,1.000000
+(tell,who),(will,you),0.015471,19.750000,0.916667
+(will,tell,who),(you),0.015471,12.258621,1.000000
+ (tell,who,you),(will),0.015471,14.220000,1.000000
+(tell,who),(will,you),0.015471,20.367188,0.916667
+(tell,who,by),(will),0.011252,13.166667,1.000000
+(by,tell,who),(will),0.011252,14.220000,1.000000
+(tell,who,by),(you),0.011252,11.850000,1.000000
+(by,tell,who),(you),0.011252,12.258621,1.000000
+(by,will,who,tell),(you),0.011252,11.850000,1.000000
+ (by,tell,who,you),(will),0.011252,13.166667,1.000000
+(by,tell,who),(will,you),0.011252,21.545455,1.000000
+(who,by,will,tell),(you),0.011252,11.850000,1.000000
+ (who,by,tell,you),(will),0.011252,13.166667,1.000000
+(tell,who,by),(will,you),0.011252,21.545455,1.000000
+(by,will,who,tell),(you),0.011252,12.258621,1.000000
+ (by,tell,who,you),(will),0.011252,14.220000,1.000000
+(by,tell,who),(will,you),0.011252,22.218750,1.000000
+ (tell,from),(will),0.014065,13.166667,1.000000
+ (tell,from),(you),0.014065,11.850000,1.000000
+ (will,tell,from),(you),0.014065,11.850000,1.000000
+(tell,you,from),(will),0.014065,13.166667,1.000000
+ (tell,from),(will,you),0.014065,21.545455,1.000000
+ (tell,from),(will),0.014065,13.166667,1.000000
+ (tell,from),(will),0.014065,14.220000,1.000000
+ (tell,from,me),(will),0.011252,13.166667,1.000000
+ (tell,from),(you),0.014065,11.850000,1.000000
+ (tell,from),(you),0.014065,12.258621,1.000000
+ (tell,from,me),(you),0.011252,11.850000,1.000000
+ (will,from,tell),(you),0.014065,11.850000,1.000000
+(tell,you,from),(will),0.014065,13.166667,1.000000
+ (tell,from),(will,you),0.014065,21.545455,1.000000
+ (will,tell,from),(you),0.014065,12.258621,1.000000
+(tell,you,from),(will),0.014065,14.220000,1.000000
+ (tell,from),(will,you),0.014065,22.218750,1.000000
+ (will,tell,from,me),(you),0.011252,11.850000,1.000000
+(will,you,from,me),(tell),0.011252,22.935484,1.000000
+(tell,you,from,me),(will),0.011252,13.166667,1.000000
+ (tell,from,me),(will,you),0.011252,21.545455,1.000000
+ (tell,from,me),(will),0.011252,13.166667,1.000000
+ (tell,from,me),(will),0.011252,14.220000,1.000000
+ (tell,from,me),(you),0.011252,11.850000,1.000000
+ (tell,from,me),(you),0.011252,12.258621,1.000000
+ (will,tell,me,from),(you),0.011252,11.850000,1.000000
+(from,will,me,you),(tell),0.011252,22.935484,1.000000
+(from,tell,me,you),(will),0.011252,13.166667,1.000000
+ (tell,from,me),(will,you),0.011252,21.545455,1.000000
+ (will,tell,from,me),(you),0.011252,12.258621,1.000000
+(will,you,from,me),(tell),0.011252,22.935484,1.000000
+(tell,you,from,me),(will),0.011252,14.220000,1.000000
+ (tell,from,me),(will,you),0.011252,22.218750,1.000000
+(tell,one),(will),0.012658,11.850000,0.900000
+(tell,one),(you),0.012658,10.665000,0.900000
+(tell,one),(will),0.012658,11.850000,0.900000
+(tell,one),(will),0.012658,12.798000,0.900000
+(tell,one),(you),0.012658,10.665000,0.900000
+(tell,one),(you),0.012658,11.032759,0.900000
+(will,tell,one),(you),0.012658,11.850000,1.000000
+ (will,one,you),(tell),0.012658,20.641935,0.900000
+ (tell,one,you),(will),0.012658,13.166667,1.000000
+(tell,one),(will,you),0.012658,19.390909,0.900000
+(will,one,tell),(you),0.012658,11.850000,1.000000
+ (will,one,you),(tell),0.012658,20.641935,0.900000
+ (tell,one,you),(will),0.012658,13.166667,1.000000
+(tell,one),(will,you),0.012658,19.390909,0.900000
+(will,tell,one),(you),0.012658,12.258621,1.000000
+ (will,one,you),(tell),0.012658,20.641935,0.900000
+ (tell,one,you),(will),0.012658,14.220000,1.000000
+(tell,one),(will,you),0.012658,19.996875,0.900000
+ (tell,should),(you),0.015471,10.862500,0.916667
+ (tell,should),(you),0.015471,10.862500,0.916667
+ (tell,should),(you),0.015471,11.237069,0.916667
+ (will,tell,should),(you),0.014065,11.850000,1.000000
+(will,should,you),(tell),0.014065,22.935484,1.000000
+(tell,you,should),(will),0.014065,11.969697,0.909091
+ (will,should,tell),(you),0.014065,11.850000,1.000000
+(will,you,should),(tell),0.014065,22.935484,1.000000
+(tell,you,should),(will),0.014065,11.969697,0.909091
+ (will,tell,should),(you),0.014065,12.258621,1.000000
+(will,you,should),(tell),0.014065,22.935484,1.000000
+(tell,you,should),(will),0.014065,12.927273,0.909091
+ (should,about,you),(tell),0.011252,22.935484,1.000000
+ (about,you,should),(tell),0.011252,22.935484,1.000000
+ (about,you,should),(tell),0.011252,22.935484,1.000000
+(will,tell,about,should),(you),0.011252,11.850000,1.000000
+ (will,about,you,should),(tell),0.011252,22.935484,1.000000
+ (tell,about,you,should),(will),0.011252,13.166667,1.000000
+ (about,you,should),(will,tell),0.011252,26.333333,1.000000
+(should,about,will,tell),(you),0.011252,11.850000,1.000000
+ (should,about,will,you),(tell),0.011252,22.935484,1.000000
+ (should,about,tell,you),(will),0.011252,13.166667,1.000000
+ (about,you,should),(will,tell),0.011252,26.333333,1.000000
+(will,tell,about,should),(you),0.011252,12.258621,1.000000
+ (will,about,you,should),(tell),0.011252,22.935484,1.000000
+ (tell,about,you,should),(will),0.011252,14.220000,1.000000
+ (about,you,should),(will,tell),0.011252,26.333333,1.000000
+ (Listen),(will),0.016878,13.166667,1.000000
+ (Listen),(will),0.016878,13.166667,1.000000
+ (Listen),(will),0.016878,14.220000,1.000000
+ (tell,Listen),(will),0.011252,13.166667,1.000000
+ (tell,Listen),(will),0.011252,13.166667,1.000000
+ (tell,Listen),(will),0.011252,14.220000,1.000000
+(about,Listen),(will),0.011252,13.166667,1.000000
+(about,Listen),(will),0.011252,13.166667,1.000000
+(about,Listen),(will),0.011252,14.220000,1.000000
+ (by,Listen),(will),0.011252,13.166667,1.000000
+ (by,Listen),(will),0.011252,13.166667,1.000000
+ (by,Listen),(will),0.011252,14.220000,1.000000
+ (Listen,Lord),(will),0.012658,13.166667,1.000000
+ (Listen,Lord),(will),0.012658,13.166667,1.000000
+ (Listen,Lord),(will),0.012658,14.220000,1.000000
+ (Listen,said),(Lord),0.012658,22.218750,1.000000
+ (Listen,Lord),(said),0.012658,18.710526,1.000000
+ (Listen,said),(will),0.012658,13.166667,1.000000
+ (Listen,said),(Lord),0.012658,22.218750,1.000000
+ (Listen,Lord),(said),0.012658,18.710526,1.000000
+ (Listen,said),(Lord),0.012658,22.218750,1.000000
+ (Listen,Lord),(said),0.012658,19.750000,1.000000
+ (will,Listen,said),(Lord),0.012658,22.218750,1.000000
+ (will,Listen,Lord),(said),0.012658,18.710526,1.000000
+ (Lord,Listen,said),(will),0.012658,13.166667,1.000000
+ (Listen,said),(will,Lord),0.012658,47.400000,1.000000
+ (Listen,Lord),(will,said),0.012658,39.500000,1.000000
+ (Listen,said),(will),0.012658,13.166667,1.000000
+ (Listen,said),(will),0.012658,14.220000,1.000000
+ (will,Listen,Lord),(said),0.012658,18.710526,1.000000
+ (said,Listen,Lord),(will),0.012658,13.166667,1.000000
+ (will,Listen,said),(Lord),0.012658,22.218750,1.000000
+ (Listen,Lord),(will,said),0.012658,39.500000,1.000000
+ (Listen,said),(will,Lord),0.012658,47.400000,1.000000
+ (will,Listen,Lord),(said),0.012658,19.750000,1.000000
+ (said,Listen,Lord),(will),0.012658,14.220000,1.000000
+ (will,Listen,said),(Lord),0.012658,22.218750,1.000000
+ (Listen,Lord),(will,said),0.012658,39.500000,1.000000
+ (Listen,said),(will,Lord),0.012658,47.400000,1.000000
+(Listen,which),(will),0.011252,13.166667,1.000000
+(Listen,which),(will),0.011252,13.166667,1.000000
+(Listen,which),(will),0.011252,14.220000,1.000000
+ (who,from,which),(by),0.012658,2.806579,0.900000
+ (from,who,which),(by),0.012658,3.118421,1.000000
+ (from,who,which),(by),0.012658,3.350262,0.900000
+ (who,which,he),(by),0.011252,3.118421,1.000000
+ (who,which,he),(by),0.011252,3.118421,1.000000
+ (who,which,he),(by),0.011252,3.722513,1.000000
+(with,from,which),(by),0.012658,2.806579,0.900000
+(from,which,with),(by),0.012658,2.806579,0.900000
+(from,which,with),(by),0.012658,3.350262,0.900000
+(those,from),(who),0.012658,3.555000,1.000000
+(those,from),(who),0.012658,3.555000,1.000000
+(those,from),(who),0.012658,4.207101,1.000000
+(have,those),(who),0.016878,3.555000,1.000000
+(have,those),(who),0.016878,3.555000,1.000000
+(have,those),(who),0.016878,4.207101,1.000000
+(those,he),(who),0.011252,3.555000,1.000000
+(those,he),(who),0.011252,3.555000,1.000000
+(those,he),(who),0.011252,4.207101,1.000000
+(on,those),(who),0.012658,3.199500,0.900000
+(on,those),(who),0.012658,3.199500,0.900000
+(on,those),(who),0.012658,3.786391,0.900000
+ (by,not,those),(who),0.012658,3.199500,0.900000
+(upon,those),(who),0.011252,3.555000,1.000000
+(upon,those),(who),0.011252,3.555000,1.000000
+(upon,those),(who),0.011252,4.207101,1.000000
+ (upon,he),(with),0.015471,2.682099,0.916667
+ (upon,he),(with),0.015471,2.682099,0.916667
+ (upon,he),(with),0.015471,3.242537,0.916667
+(those,go),(who),0.019691,3.318000,0.933333
+(those,go),(who),0.018284,3.301071,0.928571
+(Garua¸said,about,said),(Lord),0.011252,22.218750,1.000000
+(Garua¸said,about,Lord),(said),0.011252,18.710526,1.000000
+(about,Garua¸said,Lord),(said),0.011252,18.710526,1.000000
+(about,Garua¸said,said),(Lord),0.011252,22.218750,1.000000
+(Garua¸said,about,Lord),(said),0.011252,19.750000,1.000000
+(Garua¸said,about,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,by,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,by,Lord),(said),0.011252,18.710526,1.000000
+ (by,Garua¸said,Lord),(said),0.011252,18.710526,1.000000
+ (by,Garua¸said,said),(Lord),0.011252,22.218750,1.000000
+ (by,Garua¸said,Lord),(said),0.011252,19.750000,1.000000
+ (by,Garua¸said,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,said),(Lord),0.014065,22.218750,1.000000
+ (Garua¸said,Lord),(said),0.014065,18.710526,1.000000
+ (Garua¸said,said),(Lord),0.014065,22.218750,1.000000
+ (Garua¸said,Lord),(said),0.014065,18.7105261.000000
+ (Garua¸said,said),(Lord),0.014065,22.218750,1.000000
+ (Garua¸said,Lord),(said),0.014065,19.750000,1.000000
+ (Garua¸said,me,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,me,Lord),(said),0.011252,18.710526,1.000000
+ (Garua¸said,me,Lord),(said),0.011252,18.710526,1.000000
+ (Garua¸said,me,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,me,Lord),(said),0.011252,19.750000,1.000000
+ (Garua¸said,me,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,tell),(me),0.011252,20.911765,1.000000
+ (tell,Garua¸said),(me),0.011252,20.911765,1.000000
+ (Garua¸said,tell),(me),0.011252,22.218750,1.000000
+ (Garua¸said,will),(said),0.011252,18.710526,1.000000
+ (Garua¸said,will),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,will,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,will,Lord),(said),0.011252,18.710526,1.000000
+ (Garua¸said,will),(Lord,said),0.011252,39.500000,1.000000
+ (will,Garua¸said),(said),0.011252,18.710526,1.000000
+ (will,Garua¸said),(said),0.011252,19.750000,1.000000
+ (will,Garua¸said),(Lord),0.011252,22.218750,1.000000
+ (will,Garua¸said),(Lord),0.011252,22.218750,1.000000
+ (will,Garua¸said,Lord),(said),0.011252,18.710526,1.000000
+ (will,Garua¸said,said),(Lord),0.011252,22.218750,1.000000
+ (will,Garua¸said),(said,Lord),0.011252,39.500000,1.000000
+ (Garua¸said,will,Lord),(said),0.011252,19.750000,1.000000
+ (Garua¸said,will,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,will),(said,Lord),0.011252,39.500000,1.000000
+ (they,from),(by),0.014065,2.834928,0.909091
+ (they,from),(by),0.014065,2.834928,0.909091
+ (they,from),(by),0.014065,3.384103,0.909091
+(one,even),(by),0.011252,3.118421,1.000000
+ (will,me),(said),0.019691,17.463158,0.933333
+ (by,will,me),(said),0.015471,17.151316,0.916667
+ (will,by,me),(said),0.015471,17.151316,0.916667
+ (by,will,me),(said),0.015471,18.104167,0.916667
+(which,me),(said),0.015471,17.151316,0.916667
+(which,me),(said),0.015471,17.151316,0.916667
+(which,me),(said),0.015471,18.104167,0.916667
+(will,which,me),(said),0.014065,18.710526,1.000000
+(which,me,said),(will),0.014065,11.969697,0.909091
+(will,which,me),(said),0.014065,18.710526,1.000000
+(which,me,said),(will),0.014065,11.969697,0.909091
+(will,which,me),(said),0.014065,19.750000,1.000000
+(which,me,said),(will),0.014065,12.927273,0.909091
+(by,which,me),(said),0.014065,18.710526,1.000000
+(which,me,said),(by),0.014065,2.834928,0.909091
+(will,which,me),(by),0.012658,2.806579,0.900000
+(by,which,me),(will),0.012658,11.850000,0.900000
+(by,which,me),(said),0.014065,18.710526,1.000000
+(which,me,said),(by),0.014065,2.834928,0.909091
+(by,which,me),(said),0.014065,19.750000,1.000000
+(which,me,said),(by),0.014065,3.384103,0.909091
+(by,will,which,me),(said),0.012658,18.710526,1.000000
+(by,which,me,said),(will),0.012658,11.850000,0.900000
+(will,which,me,said),(by),0.012658,2.806579,0.900000
+(by,which,me),(will,said),0.012658,35.550000,0.900000
+(will,which,me),(by,said),0.012658,25.596000,0.900000
+(by,which,me),(will),0.012658,11.850000,0.900000
+(will,which,me),(by),0.012658,2.806579,0.900000
+(by,which,me),(will),0.012658,12.798000,0.900000
+(will,which,me),(by),0.012658,3.350262,0.900000
+(which,by,will,me),(said),0.012658,18.710526,1.000000
+(which,by,me,said),(will),0.012658,11.850000,0.900000
+(which,will,me,said),(by),0.012658,2.806579,0.900000
+(by,which,me),(will,said),0.012658,35.550000,0.900000
+(will,which,me),(by,said),0.012658,25.596000,0.900000
+(by,will,which,me),(said),0.012658,19.750000,1.000000
+(by,which,me,said),(will),0.012658,12.798000,0.900000
+(will,which,me,said),(by),0.012658,3.350262,0.900000
+(by,which,me),(will,said),0.012658,35.550000,0.900000
+(will,which,me),(by,said),0.012658,26.662500,0.900000
+(will,which,me),(you),0.012658,10.665000,0.900000
+ (you,which,me),(will),0.012658,13.166667,1.000000
+ (you,which,me),(said),0.012658,18.710526,1.000000
+ (you,which,said),(me),0.012658,18.820588,0.900000
+ (will,you,which,me),(said),0.012658,18.710526,1.000000
+(will,which,me,said),(you),0.012658,10.665000,0.900000
+ (will,you,which,said),(me),0.012658,18.820588,0.900000
+ (you,which,me,said),(will),0.012658,13.166667,1.000000
+(will,which,me),(you,said),0.012658,42.660000,0.900000
+ (you,which,me),(will,said),0.012658,39.500000,1.000000
+ (you,which,said),(will,me),0.012658,37.641176,0.900000
+(will,which,me),(you),0.012658,10.665000,0.900000
+ (you,which,me),(will),0.012658,13.166667,1.000000
+(will,which,me),(you),0.012658,11.032759,0.900000
+ (you,which,me),(will),0.012658,14.220000,1.000000
+ (by,you,which,me),(will),0.011252,13.166667,1.000000
+ (you,which,me),(said),0.012658,18.710526,1.000000
+ (you,which,said),(me),0.012658,18.820588,0.900000
+ (you,which,me),(said),0.012658,19.750000,1.000000
+ (you,which,said),(me),0.012658,19.996875,0.900000
+ (by,you,which,me),(said),0.011252,18.710526,1.000000
+ (by,you,which,said),(me),0.011252,20.911765,1.000000
+ (which,will,me,you),(said),0.012658,18.710526,1.000000
+(which,will,me,said),(you),0.012658,10.665000,0.900000
+ (which,will,you,said),(me),0.012658,18.820588,0.900000
+ (which,me,you,said),(will),0.012658,13.166667,1.000000
+(will,which,me),(you,said),0.012658,42.660000,0.900000
+ (you,which,me),(will,said),0.012658,39.500000,1.000000
+ (you,which,said),(will,me),0.012658,37.641176,0.900000
+ (will,you,which,me),(said),0.012658,19.750000,1.000000
+(will,which,me,said),(you),0.012658,11.032759,0.900000
+ (will,you,which,said),(me),0.012658,19.996875,0.900000
+ (you,which,me,said),(will),0.012658,14.220000,1.000000
+(will,which,me),(you,said),0.012658,42.660000,0.900000
+ (you,which,me),(will,said),0.012658,39.500000,1.000000
+ (you,which,said),(will,me),0.012658,42.660000,0.900000
+ (which,by,will,me,you),(said),0.011252,18.710526,1.000000
+ (which,by,will,you,said),(me),0.011252,20.911765,1.000000
+ (which,by,me,you,said),(will),0.011252,13.166667,1.000000
+ (by,you,which,me),(will,said),0.011252,39.500000,1.000000
+ (by,you,which,said),(will,me),0.011252,41.823529,1.000000
+ (which,by,me,you),(will),0.011252,13.166667,1.000000
+ (by,you,which,me),(will),0.011252,14.220000,1.000000
+ (which,by,me,you),(said),0.011252,18.710526,1.000000
+ (which,by,you,said),(me),0.011252,20.911765,1.000000
+ (by,you,which,me),(said),0.011252,19.750000,1.000000
+ (by,you,which,said),(me),0.011252,22.218750,1.000000
+ (which,by,will,me,you),(said),0.011252,18.710526,1.000000
+ (which,by,will,you,said),(me),0.011252,20.911765,1.000000
+ (which,by,me,you,said),(will),0.011252,13.166667,1.000000
+ (which,by,me,you),(will,said),0.011252,39.500000,1.000000
+ (which,by,you,said),(will,me),0.011252,41.823529,1.000000
+ (which,by,will,me,you),(said),0.011252,19.750000,1.000000
+ (which,by,will,you,said),(me),0.011252,22.218750,1.000000
+ (which,by,me,you,said),(will),0.011252,14.220000,1.000000
+ (by,you,which,me),(will,said),0.011252,39.500000,1.000000
+ (by,you,which,said),(will,me),0.011252,47.400000,1.000000
+(about,me),(will),0.012658,11.850000,0.900000
+(about,me),(said),0.012658,16.839474,0.900000
+(about,me),(will),0.012658,11.850000,0.900000
+(about,me),(will),0.012658,12.798000,0.900000
+(about,me),(said),0.012658,16.839474,0.900000
+(about,me),(said),0.012658,17.775000,0.900000
+ (about,you,me),(will),0.011252,13.166667,1.000000
+ (about,you,me),(will),0.011252,13.166667,1.000000
+ (about,you,me),(will),0.011252,14.220000,1.000000
+(you,me),(will),0.021097,12.343750,0.937500
+ (will,me),(you),0.019691,11.060000,0.933333
+(you,me),(will),0.019691,12.288889,0.933333
+(will,you,said),(me),0.018284,19.418067,0.928571
+ (will,me,said),(you),0.018284,11.003571,0.928571
+(you,me,said),(will),0.018284,13.166667,1.000000
+(will,you,me),(said),0.018284,17.374060,0.928571
+ (will,me,said),(you),0.018284,11.003571,0.928571
+(will,you,said),(me),0.018284,19.418067,0.928571
+(you,me,said),(will),0.018284,13.166667,1.000000
+ (will,me,said),(you),0.018284,11.383005,0.928571
+(will,you,said),(me),0.018284,20.631696,0.928571
+(you,me,said),(will),0.018284,14.220000,1.000000
+ (by,will,me),(you),0.015471,10.862500,0.916667
+(by,you,me),(will),0.015471,12.069444,0.916667
+(by,you,said),(me),0.014065,19.010695,0.909091
+ (will,by,me),(you),0.015471,10.862500,0.916667
+(by,you,me),(will),0.015471,12.069444,0.916667
+ (by,will,me),(you),0.015471,11.237069,0.916667
+(by,you,me),(will),0.015471,13.035000,0.916667
+(by,you,said),(me),0.014065,19.010695,0.909091
+(by,you,said),(me),0.014065,20.198864,0.909091
+(by,will,you,me),(said),0.014065,17.009569,0.909091
+ (by,will,me,said),(you),0.014065,10.772727,0.909091
+(by,will,you,said),(me),0.014065,20.911765,1.000000
+(by,you,me,said),(will),0.014065,13.166667,1.000000
+(by,you,said),(will,me),0.014065,38.021390,0.909091
+(by,will,me,you),(said),0.014065,17.009569,0.909091
+ (by,will,me,said),(you),0.014065,10.772727,0.909091
+(by,will,you,said),(me),0.014065,20.911765,1.000000
+(by,me,you,said),(will),0.014065,13.166667,1.000000
+(by,you,said),(will,me),0.014065,38.021390,0.909091
+(by,will,you,me),(said),0.014065,17.954545,0.909091
+ (by,will,me,said),(you),0.014065,11.144201,0.909091
+(by,will,you,said),(me),0.014065,22.218750,1.000000
+(by,you,me,said),(will),0.014065,14.220000,1.000000
+(by,you,said),(will,me),0.014065,43.090909,0.909091
+ (will,have,me),(you),0.012658,11.850000,1.000000
+(have,you,me),(will),0.012658,11.850000,0.900000
+ (will,me,have),(you),0.011252,11.850000,1.000000
+ (have,me,said),(will),0.011252,13.166667,1.000000
+(have,you,said),(me),0.011252,20.911765,1.000000
+ (have,me,said),(you),0.011252,11.850000,1.000000
+ (will,have,me,said),(you),0.011252,11.850000,1.000000
+(will,have,you,said),(me),0.011252,20.911765,1.000000
+(have,you,me,said),(will),0.011252,13.166667,1.000000
+ (have,me,said),(will,you),0.011252,21.545455,1.000000
+(have,you,said),(will,me),0.011252,41.823529,1.000000
+ (will,me,have),(said),0.011252,18.710526,1.000000
+ (have,me,said),(will),0.011252,13.166667,1.000000
+ (have,me,said),(will),0.011252,14.220000,1.000000
+ (have,me,said),(you),0.011252,11.850000,1.000000
+(have,you,said),(me),0.011252,20.911765,1.000000
+ (have,me,said),(you),0.011252,12.258621,1.000000
+(have,you,said),(me),0.011252,22.218750,1.000000
+(will,have,me,you),(said),0.011252,18.710526,1.000000
+ (will,have,me,said),(you),0.011252,11.850000,1.000000
+(will,have,you,said),(me),0.011252,20.911765,1.000000
+(have,me,you,said),(will),0.011252,13.166667,1.000000
+ (will,me,have),(you,said),0.011252,47.400000,1.000000
+ (have,me,said),(will,you),0.011252,21.545455,1.000000
+(have,you,said),(will,me),0.011252,41.823529,1.000000
+ (will,have,me,said),(you),0.011252,12.258621,1.000000
+(will,have,you,said),(me),0.011252,22.218750,1.000000
+(have,you,me,said),(will),0.011252,14.220000,1.000000
+ (have,me,said),(will,you),0.011252,22.218750,1.000000
+(have,you,said),(will,me),0.011252,47.400000,1.000000
+ (that,me),(said),0.014065,17.009569,0.909091
+ (that,me),(said),0.014065,17.009569,0.909091
+ (that,me),(said),0.014065,17.954545,0.909091
+(that,you,me),(said),0.012658,18.710526,1.000000
+ (that,me,said),(you),0.012658,10.665000,0.900000
+(you,that,said),(me),0.012658,20.911765,1.000000
+(you,me,that),(said),0.012658,18.710526,1.000000
+ (me,that,said),(you),0.012658,10.665000,0.900000
+(you,that,said),(me),0.012658,20.911765,1.000000
+(you,me,that),(said),0.012658,19.750000,1.000000
+ (me,that,said),(you),0.012658,11.032759,0.900000
+(you,that,said),(me),0.012658,22.218750,1.000000
+ (will,that,me),(you),0.012658,11.850000,1.000000
+(that,you,me),(will),0.012658,13.166667,1.000000
+ (will,that,me),(said),0.012658,18.710526,1.000000
+ (will,that,said),(me),0.012658,18.820588,0.900000
+ (that,me,said),(will),0.012658,11.850000,0.900000
+(will,you,me,that),(said),0.012658,18.710526,1.000000
+ (will,me,that,said),(you),0.012658,11.850000,1.000000
+(will,you,that,said),(me),0.012658,20.911765,1.000000
+(you,me,that,said),(will),0.012658,13.166667,1.000000
+ (will,me,that),(you,said),0.012658,47.400000,1.000000
+ (will,that,said),(you,me),0.012658,39.993750,0.900000
+(you,me,that),(will,said),0.012658,39.500000,1.000000
+ (me,that,said),(will,you),0.012658,19.390909,0.900000
+(you,that,said),(will,me),0.012658,41.823529,1.000000
+ (will,me,that),(you),0.012658,11.850000,1.000000
+(you,me,that),(will),0.012658,13.166667,1.000000
+ (will,me,that),(you),0.012658,12.258621,1.000000
+(you,me,that),(will),0.012658,14.220000,1.000000
+ (will,me,that),(said),0.012658,18.710526,1.000000
+ (will,that,said),(me),0.012658,18.820588,0.900000
+ (me,that,said),(will),0.012658,11.850000,0.900000
+ (will,me,that),(said),0.012658,19.750000,1.000000
+ (will,that,said),(me),0.012658,19.996875,0.900000
+ (me,that,said),(will),0.012658,12.798000,0.900000
+(that,will,me,you),(said),0.012658,18.710526,1.000000
+ (that,will,me,said),(you),0.012658,11.850000,1.000000
+(that,will,you,said),(me),0.012658,20.911765,1.000000
+(that,me,you,said),(will),0.012658,13.166667,1.000000
+ (will,me,that),(you,said),0.012658,47.400000,1.000000
+ (will,that,said),(you,me),0.012658,39.993750,0.900000
+(you,me,that),(will,said),0.012658,39.500000,1.000000
+ (me,that,said),(will,you),0.012658,19.390909,0.900000
+(you,that,said),(will,me),0.012658,41.823529,1.000000
+(will,you,me,that),(said),0.012658,19.750000,1.000000
+ (will,me,that,said),(you),0.012658,12.258621,1.000000
+(will,you,that,said),(me),0.012658,22.218750,1.000000
+(you,me,that,said),(will),0.012658,14.220000,1.000000
+ (will,me,that),(you,said),0.012658,47.400000,1.000000
+ (will,that,said),(you,me),0.012658,42.660000,0.900000
+(you,me,that),(will,said),0.012658,39.500000,1.000000
+ (me,that,said),(will,you),0.012658,19.996875,0.900000
+(you,that,said),(will,me),0.012658,47.400000,1.000000
+ (by,that,me),(said),0.012658,18.710526,1.000000
+ (that,me,said),(by),0.012658,2.806579,0.900000
+ (by,me,that),(said),0.012658,18.710526,1.000000
+ (me,that,said),(by),0.012658,2.806579,0.900000
+ (by,me,that),(said),0.012658,19.750000,1.000000
+ (me,that,said),(by),0.012658,3.350262,0.900000
+ (by,will,me,that),(said),0.011252,18.710526,1.000000
+(by,you,me,that),(said),0.011252,18.710526,1.000000
+(by,you,that,said),(me),0.011252,20.911765,1.000000
+ (by,will,me,that),(you),0.011252,11.850000,1.000000
+(by,you,me,that),(will),0.011252,13.166667,1.000000
+ (by,that,will,me),(said),0.011252,18.710526,1.000000
+ (by,will,me,that),(said),0.011252,19.750000,1.000000
+(by,that,me,you),(said),0.011252,18.710526,1.000000
+(by,that,you,said),(me),0.011252,20.911765,1.000000
+(by,you,me,that),(said),0.011252,19.750000,1.000000
+(by,you,that,said),(me),0.011252,22.218750,1.000000
+(by,that,will,me,you),(said),0.011252,18.710526,1.000000
+ (by,that,will,me,said),(you),0.011252,11.850000,1.000000
+(by,that,will,you,said),(me),0.011252,20.911765,1.000000
+(by,that,me,you,said),(will),0.011252,13.166667,1.000000
+ (by,will,me,that),(you,said),0.011252,47.400000,1.000000
+(by,you,me,that),(will,said),0.011252,39.500000,1.000000
+(by,you,that,said),(will,me),0.011252,41.823529,1.000000
+ (by,that,will,me),(you),0.011252,11.850000,1.000000
+(by,that,me,you),(will),0.011252,13.166667,1.000000
+ (by,will,me,that),(you),0.011252,12.258621,1.000000
+(by,you,me,that),(will),0.011252,14.220000,1.000000
+(by,that,will,me,you),(said),0.011252,18.710526,1.000000
+ (by,that,will,me,said),(you),0.011252,11.850000,1.000000
+(by,that,will,you,said),(me),0.011252,20.911765,1.000000
+(by,that,me,you,said),(will),0.011252,13.166667,1.000000
+ (by,that,will,me),(you,said),0.011252,47.400000,1.000000
+(by,that,me,you),(will,said),0.011252,39.500000,1.000000
+(by,that,you,said),(will,me),0.011252,41.823529,1.000000
+(by,that,will,me,you),(said),0.011252,19.750000,1.000000
+ (by,that,will,me,said),(you),0.011252,12.258621,1.000000
+(by,that,will,you,said),(me),0.011252,22.218750,1.000000
+(by,that,me,you,said),(will),0.011252,14.220000,1.000000
+ (by,will,me,that),(you,said),0.011252,47.400000,1.000000
+(by,you,me,that),(will,said),0.011252,39.500000,1.000000
+(by,you,that,said),(will,me),0.011252,47.400000,1.000000
+ (me,Lord),(said),0.019691,17.463158,0.933333
+ (me,Lord),(said),0.019691,17.463158,0.933333
+ (me,Lord),(said),0.019691,18.433333,0.933333
+ (by,me,Lord),(said),0.016878,17.271255,0.923077
+ (by,me,Lord),(said),0.016878,17.271255,0.923077
+ (by,me,Lord),(said),0.016878,18.230769,0.923077
+ (will,Lord),(said),0.019691,17.463158,0.933333
+ (will,Lord),(said),0.019691,17.463158,0.933333
+ (will,Lord),(said),0.019691,18.433333,0.933333
+ (by,will,Lord),(said),0.016878,18.710526,1.000000
+ (will,by,Lord),(said),0.016878,18.710526,1.000000
+ (by,will,Lord),(said),0.016878,19.750000,1.000000
+ (will,me,Lord),(said),0.015471,18.710526,1.000000
+ (will,me,Lord),(said),0.015471,18.710526,1.000000
+ (will,me,Lord),(said),0.015471,19.750000,1.000000
+ (by,will,me,Lord),(said),0.012658,18.710526,1.000000
+ (by,will,me,Lord),(said),0.012658,18.710526,1.000000
+ (by,will,me,Lord),(said),0.012658,19.750000,1.000000
+(will,which,Lord),(said),0.014065,18.710526,1.000000
+(Lord,which,said),(will),0.014065,11.969697,0.909091
+(will,which,Lord),(said),0.014065,18.710526,1.000000
+(said,which,Lord),(will),0.014065,11.969697,0.909091
+(will,which,Lord),(said),0.014065,19.750000,1.000000
+(said,which,Lord),(will),0.014065,12.927273,0.909091
+(by,which,Lord),(said),0.014065,18.710526,1.000000
+(Lord,which,said),(by),0.014065,2.834928,0.909091
+(by,which,Lord),(will),0.012658,11.850000,0.900000
+(will,which,Lord),(by),0.012658,2.806579,0.900000
+(by,which,Lord),(said),0.014065,18.710526,1.000000
+(said,which,Lord),(by),0.014065,2.834928,0.909091
+(by,which,Lord),(said),0.014065,19.750000,1.000000
+(said,which,Lord),(by),0.014065,3.384103,0.909091
+(by,will,which,Lord),(said),0.012658,18.710526,1.000000
+(by,said,which,Lord),(will),0.012658,11.850000,0.900000
+(will,said,which,Lord),(by),0.012658,2.806579,0.900000
+(by,which,Lord),(will,said),0.012658,35.550000,0.900000
+(will,which,Lord),(by,said),0.012658,25.596000,0.900000
+(by,which,Lord),(will),0.012658,11.850000,0.900000
+(will,which,Lord),(by),0.012658,2.806579,0.900000
+(by,which,Lord),(will),0.012658,12.798000,0.900000
+(will,which,Lord),(by),0.012658,3.350262,0.900000
+(which,by,will,Lord),(said),0.012658,18.710526,1.000000
+(Lord,which,by,said),(will),0.012658,11.850000,0.900000
+(Lord,which,will,said),(by),0.012658,2.806579,0.900000
+(by,which,Lord),(will,said),0.012658,35.550000,0.900000
+(will,which,Lord),(by,said),0.012658,25.596000,0.900000
+(by,will,which,Lord),(said),0.012658,19.750000,1.000000
+(by,said,which,Lord),(will),0.012658,12.798000,0.900000
+(will,said,which,Lord),(by),0.012658,3.350262,0.900000
+(by,which,Lord),(will,said),0.012658,35.550000,0.900000
+(will,which,Lord),(by,said),0.012658,26.662500,0.900000
+(which,me,Lord),(said),0.012658,18.710526,1.000000
+(which,me,Lord),(said),0.012658,18.710526,1.000000
+(which,me,Lord),(said),0.012658,19.750000,1.000000
+(by,which,me,Lord),(said),0.011252,18.710526,1.000000
+(which,by,me,Lord),(said),0.011252,18.710526,1.000000
+(by,which,me,Lord),(said),0.011252,19.750000,1.000000
+(will,which,me,Lord),(said),0.011252,18.710526,1.000000
+(which,will,me,Lord),(said),0.011252,18.710526,1.000000
+(will,which,me,Lord),(said),0.011252,19.750000,1.000000
+(about,Lord),(said),0.014065,18.710526,1.000000
+(about,Lord),(will),0.012658,11.850000,0.900000
+(about,Lord),(said),0.014065,18.710526,1.000000
+(about,Lord),(said),0.014065,19.750000,1.000000
+(about,Lord),(will),0.012658,11.850000,0.900000
+(about,Lord),(will),0.012658,12.798000,0.900000
+(will,about,Lord),(said),0.012658,18.710526,1.000000
+(Lord,about,said),(will),0.012658,11.850000,0.900000
+(about,Lord),(will,said),0.012658,35.550000,0.900000
+(will,about,Lord),(said),0.012658,18.710526,1.000000
+(about,said,Lord),(will),0.012658,11.850000,0.900000
+(about,Lord),(will,said),0.012658,35.550000,0.900000
+(will,about,Lord),(said),0.012658,19.750000,1.000000
+(about,said,Lord),(will),0.012658,12.798000,0.900000
+(about,Lord),(will,said),0.012658,35.550000,0.900000
+(about,me,Lord),(said),0.011252,18.710526,1.000000
+(about,me,Lord),(said),0.011252,18.710526,1.000000
+(about,me,Lord),(said),0.011252,19.750000,1.000000
+(by,about,Lord),(said),0.011252,18.710526,1.000000
+(by,about,Lord),(said),0.011252,18.710526,1.000000
+(by,about,Lord),(said),0.011252,19.750000,1.000000
+(who,Lord),(by),0.012658,2.806579,0.900000
+(who,Lord),(by),0.012658,2.806579,0.900000
+(who,Lord),(by),0.012658,3.350262,0.900000
+(you,Lord),(will),0.015471,13.166667,1.000000
+(you,Lord),(me),0.014065,19.010695,0.909091
+(you,Lord),(said),0.014065,17.009569,0.909091
+(you,Lord),(will),0.015471,13.166667,1.000000
+(you,Lord),(will),0.015471,14.220000,1.000000
+(will,you,Lord),(me),0.014065,19.010695,0.909091
+ (will,me,Lord),(you),0.014065,10.772727,0.909091
+(you,me,Lord),(will),0.014065,13.166667,1.000000
+(you,Lord),(will,me),0.014065,38.021390,0.909091
+(will,you,Lord),(said),0.014065,17.009569,0.909091
+(Lord,you,said),(will),0.014065,13.166667,1.000000
+(you,Lord),(will,said),0.014065,35.909091,0.909091
+(by,you,Lord),(will),0.011252,13.166667,1.000000
+(you,Lord),(me),0.014065,19.010695,0.909091
+(you,Lord),(me),0.014065,20.198864,0.909091
+(you,Lord),(said),0.014065,17.009569,0.909091
+(you,Lord),(said),0.014065,17.954545,0.909091
+(Lord,you,said),(me),0.014065,20.911765,1.000000
+(you,me,Lord),(said),0.014065,18.710526,1.000000
+(you,Lord),(me,said),0.014065,38.021390,0.909091
+(by,you,Lord),(me),0.011252,20.911765,1.000000
+(by,you,Lord),(said),0.011252,18.710526,1.000000
+ (will,me,Lord),(you),0.014065,10.772727,0.909091
+(will,you,Lord),(me),0.014065,19.010695,0.909091
+(you,me,Lord),(will),0.014065,13.166667,1.000000
+(you,Lord),(will,me),0.014065,38.021390,0.909091
+ (will,me,Lord),(you),0.014065,11.144201,0.909091
+(will,you,Lord),(me),0.014065,20.198864,0.909091
+(you,me,Lord),(will),0.014065,14.220000,1.000000
+(you,Lord),(will,me),0.014065,43.090909,0.909091
+(will,you,Lord),(said),0.014065,17.009569,0.909091
+(said,you,Lord),(will),0.014065,13.166667,1.000000
+(you,Lord),(will,said),0.014065,35.909091,0.909091
+(will,you,Lord),(said),0.014065,17.954545,0.909091
+(said,you,Lord),(will),0.014065,14.220000,1.000000
+(you,Lord),(will,said),0.014065,35.909091,0.909091
+(by,you,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will),0.011252,14.220000,1.000000
+(will,you,me,Lord),(said),0.014065,18.710526,1.000000
+ (will,said,me,Lord),(you),0.014065,10.772727,0.909091
+(will,said,you,Lord),(me),0.014065,20.911765,1.000000
+(said,you,me,Lord),(will),0.014065,13.166667,1.000000
+ (will,me,Lord),(you,said),0.014065,43.090909,0.909091
+(will,you,Lord),(me,said),0.014065,38.021390,0.909091
+(you,me,Lord),(will,said),0.014065,39.500000,1.000000
+(said,you,Lord),(will,me),0.014065,41.823529,1.000000
+(you,Lord),(will,me,said),0.014065,46.168831,0.909091
+(by,will,you,Lord),(me),0.011252,20.911765,1.000000
+(by,you,me,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,me),0.011252,41.823529,1.000000
+(by,will,you,Lord),(said),0.011252,18.710526,1.000000
+(by,said,you,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,said),0.011252,39.500000,1.000000
+(you,me,Lord),(said),0.014065,18.710526,1.000000
+(said,you,Lord),(me),0.014065,20.911765,1.000000
+(you,Lord),(me,said),0.014065,38.021390,0.909091
+(you,me,Lord),(said),0.014065,19.750000,1.000000
+(said,you,Lord),(me),0.014065,22.218750,1.000000
+(you,Lord),(me,said),0.014065,38.021390,0.909091
+(by,you,Lord),(me),0.011252,20.911765,1.000000
+(by,you,Lord),(me),0.011252,22.218750,1.000000
+(by,you,Lord),(said),0.011252,18.710526,1.000000
+(by,you,Lord),(said),0.011252,19.750000,1.000000
+(by,you,me,Lord),(said),0.011252,18.710526,1.000000
+(by,said,you,Lord),(me),0.011252,20.911765,1.000000
+(by,you,Lord),(me,said),0.011252,41.823529,1.000000
+(will,me,you,Lord),(said),0.014065,18.710526,1.000000
+ (Lord,will,me,said),(you),0.014065,10.772727,0.909091
+(Lord,will,you,said),(me),0.014065,20.911765,1.000000
+(Lord,me,you,said),(will),0.014065,13.166667,1.000000
+ (will,me,Lord),(you,said),0.014065,43.090909,0.909091
+(will,you,Lord),(me,said),0.014065,38.021390,0.909091
+(you,me,Lord),(will,said),0.014065,39.500000,1.000000
+(said,you,Lord),(will,me),0.014065,41.823529,1.000000
+(will,you,me,Lord),(said),0.014065,19.750000,1.000000
+ (will,said,me,Lord),(you),0.014065,11.144201,0.909091
+(will,said,you,Lord),(me),0.014065,22.218750,1.000000
+(said,you,me,Lord),(will),0.014065,14.220000,1.000000
+(you,Lord),(will,me,said),0.014065,46.168831,0.909091
+ (will,me,Lord),(you,said),0.014065,43.090909,0.909091
+(will,you,Lord),(me,said),0.014065,38.021390,0.909091
+(you,me,Lord),(will,said),0.014065,39.500000,1.000000
+(said,you,Lord),(will,me),0.014065,47.400000,1.000000
+(you,Lord),(will,me,said),0.014065,46.168831,0.909091
+(by,will,you,Lord),(me),0.011252,20.911765,1.000000
+(by,me,you,Lord),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,me),0.011252,41.823529,1.000000
+(by,will,you,Lord),(me),0.011252,22.218750,1.000000
+(by,you,me,Lord),(will),0.011252,14.220000,1.000000
+(by,you,Lord),(will,me),0.011252,47.400000,1.000000
+(by,will,you,Lord),(said),0.011252,18.710526,1.000000
+(Lord,by,you,said),(will),0.011252,13.166667,1.000000
+(by,you,Lord),(will,said),0.011252,39.500000,1.000000
+(by,will,you,Lord),(said),0.011252,19.750000,1.000000
+(by,said,you,Lord),(will),0.011252,14.220000,1.000000
+(by,you,Lord),(will,said),0.011252,39.500000,1.000000
+(by,will,me,you,Lord),(said),0.011252,18.710526,1.000000
+(Lord,by,will,you,said),(me),0.011252,20.911765,1.000000
+(Lord,by,me,you,said),(will),0.011252,13.166667,1.000000
+(by,will,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,you,me,Lord),(will,said),0.011252,39.500000,1.000000
+(by,said,you,Lord),(will,me),0.011252,41.823529,1.000000
+(by,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+(by,me,you,Lord),(said),0.011252,18.710526,1.000000
+(Lord,by,you,said),(me),0.011252,20.911765,1.000000
+(by,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,you,me,Lord),(said),0.011252,19.750000,1.000000
+(by,said,you,Lord),(me),0.011252,22.218750,1.000000
+(by,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,will,me,you,Lord),(said),0.011252,18.710526,1.000000
+(by,said,will,you,Lord),(me),0.011252,20.911765,1.000000
+(by,said,me,you,Lord),(will),0.011252,13.166667,1.000000
+(by,will,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,me,you,Lord),(will,said),0.011252,39.500000,1.000000
+(Lord,by,you,said),(will,me),0.011252,41.823529,1.000000
+(by,will,me,you,Lord),(said),0.011252,19.750000,1.000000
+(Lord,by,will,you,said),(me),0.011252,22.218750,1.000000
+(Lord,by,me,you,said),(will),0.011252,14.220000,1.000000
+(by,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+(by,will,you,Lord),(me,said),0.011252,41.823529,1.000000
+(by,you,me,Lord),(will,said),0.011252,39.500000,1.000000
+(by,said,you,Lord),(will,me),0.011252,47.400000,1.000000
+(by,you,Lord),(will,me,said),0.011252,50.785714,1.000000
+ (that,Lord),(will),0.012658,11.850000,0.900000
+ (that,Lord),(said),0.012658,16.839474,0.900000
+ (that,Lord),(will),0.012658,11.850000,0.900000
+ (that,Lord),(will),0.012658,12.798000,0.900000
+ (that,Lord),(said),0.012658,16.839474,0.900000
+ (that,Lord),(said),0.012658,17.775000,0.900000
+(you,that,Lord),(will),0.011252,13.166667,1.000000
+(you,that,Lord),(will),0.011252,13.166667,1.000000
+(you,that,Lord),(will),0.011252,14.220000,1.000000
+ (that,me,Lord),(said),0.011252,18.710526,1.000000
+ (me,that,Lord),(said),0.011252,18.710526,1.000000
+ (me,that,Lord),(said),0.011252,19.750000,1.000000
+ (by,that,Lord),(said),0.011252,18.710526,1.000000
+ (by,that,Lord),(said),0.011252,18.710526,1.000000
+ (by,that,Lord),(said),0.011252,19.750000,1.000000
+ (have,Lord),(said),0.012658,18.710526,1.000000
+ (have,Lord),(said),0.012658,18.710526,1.000000
+ (have,Lord),(said),0.012658,19.750000,1.000000
+ (will,have,Lord),(said),0.011252,18.710526,1.000000
+ (by,have,Lord),(said),0.011252,18.710526,1.000000
+ (by,have,Lord),(will),0.011252,13.166667,1.000000
+ (will,have,Lord),(by),0.011252,3.118421,1.000000
+ (will,have,Lord),(said),0.011252,18.710526,1.000000
+ (will,have,Lord),(said),0.011252,19.750000,1.000000
+ (have,by,Lord),(said),0.011252,18.710526,1.000000
+ (by,have,Lord),(said),0.011252,19.750000,1.000000
+ (by,will,have,Lord),(said),0.011252,18.710526,1.000000
+ (by,have,said,Lord),(will),0.011252,13.166667,1.000000
+ (will,have,said,Lord),(by),0.011252,3.118421,1.000000
+ (by,have,Lord),(will,said),0.011252,39.500000,1.000000
+ (will,have,Lord),(by,said),0.011252,28.440000,1.000000
+ (have,by,Lord),(will),0.011252,13.166667,1.000000
+ (will,Lord,have),(by),0.011252,3.118421,1.000000
+ (by,have,Lord),(will),0.011252,14.220000,1.000000
+ (will,have,Lord),(by),0.011252,3.722513,1.000000
+ (by,said,have,Lord),(will),0.011252,13.166667,1.000000
+ (by,will,have,Lord),(said),0.011252,18.710526,1.000000
+ (said,will,have,Lord),(by),0.011252,3.118421,1.000000
+ (have,by,Lord),(will,said),0.011252,39.500000,1.000000
+ (will,Lord,have),(by,said),0.011252,28.440000,1.000000
+ (by,have,Lord,said),(will),0.011252,14.220000,1.000000
+ (by,will,Lord,have),(said),0.011252,19.750000,1.000000
+ (will,have,Lord,said),(by),0.011252,3.722513,1.000000
+ (by,have,Lord),(will,said),0.011252,39.500000,1.000000
+ (will,have,Lord),(by,said),0.011252,29.625000,1.000000
+ (those,asinful),(who),0.012658,3.555000,1.000000
+ (those,asinful),(who),0.011252,3.555000,1.000000
+ (which,asinful),(by),0.012658,3.118421,1.000000
+ (which,asinful),(by),0.012658,3.118421,1.000000
+ (which,asinful),(by),0.012658,3.722513,1.000000
+(they,asinful),(by),0.011252,3.118421,1.000000
+(they,asinful),(by),0.011252,3.118421,1.000000
+(they,asinful),(by),0.011252,3.722513,1.000000
+(on,asinful),(by),0.012658,2.806579,0.900000
+(on,asinful),(by),0.012658,2.806579,0.900000
+(on,asinful),(by),0.012658,3.350262,0.900000
+ (Tell),(said),0.016878,17.271255,0.923077
+ (Tell),(said),0.016878,17.271255,0.923077
+ (Tell),(said),0.016878,18.230769,0.923077
+ (Tell,me),(said),0.014065,17.009569,0.909091
+ (Tell,me),(said),0.014065,17.009569,0.909091
+ (Tell,me),(said),0.014065,17.954545,0.909091
+ (will,Tell),(said),0.015471,18.710526,1.000000
+ (Tell,said),(will),0.015471,12.069444,0.916667
+ (will,Tell),(said),0.015471,18.710526,1.000000
+ (Tell,said),(will),0.015471,12.069444,0.916667
+ (will,Tell),(said),0.015471,19.750000,1.000000
+ (Tell,said),(will),0.015471,13.035000,0.916667
+ (will,Tell,me),(said),0.012658,18.710526,1.000000
+ (Tell,me,said),(will),0.012658,11.850000,0.900000
+ (Tell,me,will),(said),0.012658,18.710526,1.000000
+ (Tell,me,said),(will),0.012658,11.850000,0.900000
+ (will,Tell,me),(said),0.012658,19.750000,1.000000
+ (Tell,me,said),(will),0.012658,12.798000,0.900000
+ (by,Tell),(said),0.014065,17.009569,0.909091
+ (Tell,by),(said),0.014065,17.009569,0.909091
+ (by,Tell),(said),0.014065,17.954545,0.909091
+ (will,Tell,by),(said),0.012658,18.710526,1.000000
+ (by,Tell,said),(will),0.012658,11.850000,0.900000
+ (Tell,by,will),(said),0.012658,18.710526,1.000000
+ (Tell,by,said),(will),0.012658,11.850000,0.900000
+ (by,Tell,will),(said),0.012658,19.750000,1.000000
+ (by,Tell,said),(will),0.012658,12.798000,0.900000
+ (Tell,Lord),(said),0.014065,18.710526,1.000000
+ (Tell,Lord),(by),0.012658,2.806579,0.900000
+ (Tell,Lord),(will),0.012658,11.850000,0.900000
+ (Tell,Lord),(said),0.014065,18.710526,1.000000
+ (Tell,Lord),(said),0.014065,19.750000,1.000000
+ (Tell,Lord),(by),0.012658,2.806579,0.900000
+ (Tell,Lord),(by),0.012658,3.350262,0.900000
+ (by,Tell,said),(Lord),0.012658,19.996875,0.900000
+ (by,Tell,Lord),(said),0.012658,18.710526,1.000000
+ (Lord,Tell,said),(by),0.012658,2.806579,0.900000
+ (Tell,Lord),(by,said),0.012658,25.596000,0.900000
+ (Tell,by,Lord),(said),0.012658,18.710526,1.000000
+ (Tell,said,Lord),(by),0.012658,2.806579,0.900000
+ (Tell,by,said),(Lord),0.012658,19.996875,0.900000
+ (Tell,Lord),(by,said),0.012658,25.596000,0.900000
+ (by,Tell,Lord),(said),0.012658,19.750000,1.000000
+ (Tell,said,Lord),(by),0.012658,3.350262,0.900000
+ (by,Tell,said),(Lord),0.012658,19.996875,0.900000
+ (Tell,Lord),(by,said),0.012658,26.662500,0.900000
+ (Tell,Lord),(will),0.012658,11.850000,0.900000
+ (Tell,Lord),(will),0.012658,12.798000,0.900000
+ (will,Tell,Lord),(said),0.012658,18.710526,1.000000
+ (Lord,Tell,said),(will),0.012658,11.850000,0.900000
+ (Tell,Lord),(will,said),0.012658,35.550000,0.900000
+ (Tell,will,Lord),(said),0.012658,18.710526,1.000000
+ (Tell,said,Lord),(will),0.012658,11.850000,0.900000
+ (Tell,Lord),(will,said),0.012658,35.550000,0.900000
+ (will,Tell,Lord),(said),0.012658,19.750000,1.000000
+ (Tell,said,Lord),(will),0.012658,12.798000,0.900000
+ (Tell,Lord),(will,said),0.012658,35.550000,0.900000
+ (by,Tell,will,Lord),(said),0.011252,18.710526,1.000000
+ (by,Tell,will,Lord),(said),0.011252,18.710526,1.000000
+ (by,Tell,will,Lord),(said),0.011252,19.750000,1.000000
+ (Tell,me,Lord),(said),0.011252,18.710526,1.000000
+ (Tell,me,Lord),(said),0.011252,18.710526,1.000000
+ (Tell,me,Lord),(said),0.011252,19.750000,1.000000
+(Tell,about),(will),0.011252,13.166667,1.000000
+(Tell,about),(said),0.011252,18.710526,1.000000
+(will,Tell,about),(said),0.011252,18.710526,1.000000
+(Tell,about,said),(will),0.011252,13.166667,1.000000
+(Tell,about),(will,said),0.011252,39.500000,1.000000
+(Tell,about),(will),0.011252,13.166667,1.000000
+(Tell,about),(will),0.011252,14.220000,1.000000
+(Tell,about),(said),0.011252,18.710526,1.000000
+(Tell,about),(said),0.011252,19.750000,1.000000
+(Tell,about,will),(said),0.011252,18.710526,1.000000
+(Tell,about,said),(will),0.011252,13.166667,1.000000
+(Tell,about),(will,said),0.011252,39.500000,1.000000
+(will,Tell,about),(said),0.011252,19.750000,1.000000
+(Tell,about,said),(will),0.011252,14.220000,1.000000
+(Tell,about),(will,said),0.011252,39.500000,1.000000
+(Tell,which),(said),0.011252,18.710526,1.000000
+(Tell,which),(said),0.011252,18.710526,1.000000
+(Tell,which),(said),0.011252,19.750000,1.000000
+ (will,have,Tell),(said),0.011252,18.710526,1.000000
+ (have,said,Tell),(will),0.011252,13.166667,1.000000
+ (Tell,will,have),(said),0.011252,18.710526,1.000000
+ (Tell,said,have),(will),0.011252,13.166667,1.000000
+ (will,Tell,have),(said),0.011252,19.750000,1.000000
+ (have,Tell,said),(will),0.011252,14.220000,1.000000
+ (Garua¸said,Tell),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,Tell),(said),0.011252,18.710526,1.000000
+ (Garua¸said,Tell,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,Tell,Lord),(said),0.011252,18.710526,1.000000
+ (Garua¸said,Tell),(Lord,said),0.011252,39.500000,1.000000
+ (Tell,Garua¸said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,Tell),(Lord),0.011252,22.218750,1.000000
+ (Tell,Garua¸said),(said),0.011252,18.710526,1.000000
+ (Garua¸said,Tell),(said),0.011252,19.750000,1.000000
+ (Tell,Garua¸said,Lord),(said),0.011252,18.710526,1.000000
+ (Tell,Garua¸said,said),(Lord),0.011252,22.218750,1.000000
+ (Tell,Garua¸said),(said,Lord),0.011252,39.500000,1.000000
+ (Garua¸said,Tell,Lord),(said),0.011252,19.750000,1.000000
+ (Garua¸said,Tell,said),(Lord),0.011252,22.218750,1.000000
+ (Garua¸said,Tell),(said,Lord),0.011252,39.500000,1.000000
+(Tell,you),(will),0.011252,13.166667,1.000000
+(Tell,you),(me),0.011252,20.911765,1.000000
+(Tell,you),(said),0.011252,18.710526,1.000000
+(will,Tell,you),(me),0.011252,20.911765,1.000000
+(Tell,you,me),(will),0.011252,13.166667,1.000000
+(Tell,you),(will,me),0.011252,41.823529,1.000000
+(will,Tell,you),(said),0.011252,18.710526,1.000000
+(Tell,you,said),(will),0.011252,13.166667,1.000000
+(Tell,you),(will,said),0.011252,39.500000,1.000000
+(Tell,you),(will),0.011252,13.166667,1.000000
+(Tell,you),(will),0.011252,14.220000,1.000000
+(Tell,you,me),(said),0.011252,18.710526,1.000000
+(Tell,you,said),(me),0.011252,20.911765,1.000000
+(Tell,you),(me,said),0.011252,41.823529,1.000000
+(Tell,you),(me),0.011252,20.911765,1.000000
+(Tell,you),(me),0.011252,22.218750,1.000000
+(Tell,you),(said),0.011252,18.710526,1.000000
+(Tell,you),(said),0.011252,19.750000,1.000000
+(will,Tell,you,me),(said),0.011252,18.710526,1.000000
+(will,Tell,you,said),(me),0.011252,20.911765,1.000000
+(Tell,you,me,said),(will),0.011252,13.166667,1.000000
+(will,Tell,you),(me,said),0.011252,41.823529,1.000000
+(Tell,you,me),(will,said),0.011252,39.500000,1.000000
+(Tell,you,said),(will,me),0.011252,41.823529,1.000000
+(Tell,you),(will,me,said),0.011252,50.785714,1.000000
+(Tell,you,will),(me),0.011252,20.911765,1.000000
+(Tell,you,me),(will),0.011252,13.166667,1.000000
+(Tell,you),(will,me),0.011252,41.823529,1.000000
+(will,Tell,you),(me),0.011252,22.218750,1.000000
+(Tell,you,me),(will),0.011252,14.220000,1.000000
+(Tell,you),(will,me),0.011252,47.400000,1.000000
+(Tell,you,will),(said),0.011252,18.710526,1.000000
+(Tell,you,said),(will),0.011252,13.166667,1.000000
+(Tell,you),(will,said),0.011252,39.500000,1.000000
+(will,Tell,you),(said),0.011252,19.750000,1.000000
+(Tell,you,said),(will),0.011252,14.220000,1.000000
+(Tell,you),(will,said),0.011252,39.500000,1.000000
+(Tell,you,me),(said),0.011252,18.710526,1.000000
+(Tell,you,said),(me),0.011252,20.911765,1.000000
+(Tell,you),(me,said),0.011252,41.823529,1.000000
+(Tell,you,me),(said),0.011252,19.750000,1.000000
+(Tell,you,said),(me),0.011252,22.218750,1.000000
+(Tell,you),(me,said),0.011252,41.823529,1.000000
+(Tell,will,me,you),(said),0.011252,18.710526,1.000000
+(Tell,will,you,said),(me),0.011252,20.911765,1.000000
+(Tell,me,you,said),(will),0.011252,13.166667,1.000000
+(Tell,you,will),(me,said),0.011252,41.823529,1.000000
+(Tell,you,me),(will,said),0.011252,39.500000,1.000000
+(Tell,you,said),(will,me),0.011252,41.823529,1.000000
+(will,Tell,you,me),(said),0.011252,19.750000,1.000000
+(will,Tell,you,said),(me),0.011252,22.218750,1.000000
+(Tell,you,me,said),(will),0.011252,14.220000,1.000000
+(Tell,you),(will,me,said),0.011252,50.785714,1.000000
+(will,Tell,you),(me,said),0.011252,41.823529,1.000000
+(Tell,you,me),(will,said),0.011252,39.500000,1.000000
+(Tell,you,said),(will,me),0.011252,47.400000,1.000000
+(Tell,you),(will,me,said),0.011252,50.785714,1.000000
+ (attached),(who),0.016878,3.555000,1.000000
+ (attached),(who),0.015471,3.555000,1.000000
+ (attached),(who),0.015471,3.856509,0.916667
+(attached,those),(who),0.012658,3.555000,1.000000
+(attached,those),(who),0.011252,3.555000,1.000000
+ (by,attached),(who),0.012658,3.555000,1.000000
+ (attached,by),(who),0.011252,3.555000,1.000000
+ (be,as,with),(should),0.014065,3.006342,0.909091
+ (be,as,with),(should),0.012658,2.976279,0.900000
+ (he,from,or),(with),0.011252,2.925926,1.000000
+(one,or),(should),0.016878,3.052594,0.923077
+(one,or,with),(should),0.011252,3.306977,1.000000
+ (who,with,through),(by),0.011252,3.118421,1.000000
+ (who,with,through),(by),0.011252,3.118421,1.000000
+ (who,with,through),(by),0.011252,3.722513,1.000000
+ (who,him,with),(by),0.014065,2.834928,0.909091
+ (who,him,with),(by),0.012658,2.806579,0.900000
+(by,him,he),(with),0.012658,2.633333,0.900000
+(by,him,he),(with),0.012658,2.633333,0.900000
+(by,him,he),(with),0.012658,3.183582,0.900000
+(like,him),(with),0.012658,2.633333,0.900000
+(like,which),(by),0.012658,2.806579,0.900000
+(like,which,with),(by),0.011252,3.118421,1.000000
+(like,which,with),(by),0.011252,3.118421,1.000000
+(like,which,with),(by),0.011252,3.722513,1.000000
+ (like,he),(who),0.014065,3.231818,0.909091
+ (like,he),(who),0.014065,3.555000,1.000000
+ (like,he),(who),0.014065,3.824637,0.909091
+ (as,does),(not),0.018284,5.324309,0.928571
+ (does,he),(not),0.025316,5.733871,1.000000
+ (does,he),(not),0.021097,5.733871,1.000000
+(who,does,he),(not),0.014065,5.733871,1.000000
+(who,does,he),(not),0.012658,5.733871,1.000000
+(who,does,he),(not),0.012658,6.596907,0.900000
+(for,does),(not),0.016878,5.292804,0.923077
+ (should,does,he),(not),0.011252,5.733871,1.000000
+ (does,who,has),(not),0.011252,5.733871,1.000000
+ (does,not,has),(who),0.011252,3.555000,1.000000
+ (be,does),(not),0.018284,5.324309,0.928571
+ (be,does),(not),0.014065,5.733871,1.000000
+ (He,does),(not),0.012658,5.160484,0.900000
+(it,should,place),(with),0.012658,2.633333,0.900000
+(it,with,place),(should),0.012658,2.976279,0.900000
+ (one,place),(should),0.011252,3.306977,1.000000
+(be,place),(should),0.014065,3.306977,1.000000
+(be,place),(should),0.011252,3.306977,1.000000
+(amessengers),(by),0.014065,2.834928,0.909091
+(amessengers),(by),0.012658,2.806579,0.900000
+(by,amessengers),(with),0.012658,2.633333,0.900000
+(with,amessengers),(by),0.012658,3.118421,1.000000
+(with,amessengers),(by),0.011252,3.118421,1.000000
+(he,becomes),(by),0.012658,2.806579,0.900000
+(he,becomes),(by),0.012658,2.806579,0.900000
+(he,becomes),(by),0.012658,3.350262,0.900000
+ (for,becomes),(by),0.014065,2.834928,0.909091
+ (for,becomes),(by),0.012658,2.806579,0.900000
+(from,becomes),(who),0.011252,3.555000,1.000000
+(from,becomes),(who),0.011252,3.555000,1.000000
+(from,becomes),(who),0.011252,4.207101,1.000000
+ (filled),(with),0.019691,2.925926,1.000000
+ (filled),(with),0.014065,2.925926,1.000000
+(aservants),(by),0.012658,3.118421,1.000000
+(aservants),(by),0.011252,3.118421,1.000000
+ (their,those),(who),0.014065,3.555000,1.000000
+ (their,those),(who),0.011252,3.555000,1.000000
+ (for,their),(by),0.012658,2.806579,0.900000
+(afflicted),(with),0.012658,2.633333,0.900000
+(do,who,with),(not),0.014065,5.212610,0.909091
+(who,with,do),(not),0.012658,5.160484,0.900000
+(on,not,do),(who),0.015471,3.258750,0.916667
+(do,those),(who),0.012658,3.199500,0.900000
+(do,those),(not),0.012658,5.160484,0.900000
+ (who,but),(by),0.015471,2.858553,0.916667
+ (for,obtains),(by),0.012658,3.118421,1.000000
+ (for,obtains),(by),0.011252,3.118421,1.000000
+(should,obtains),(who),0.011252,3.555000,1.000000
+(one,on,with),(should),0.011252,3.306977,1.000000
+(one,on,with),(should),0.011252,3.306977,1.000000
+(one,on,with),(should),0.011252,4.283133,1.000000
+(be,one,with),(should),0.018284,3.070764,0.928571
+(be,one,with),(should),0.016878,3.052594,0.923077
+(one,as,with),(should),0.012658,2.976279,0.900000
+(day,by,with),(on),0.011252,6.182609,1.000000
+(day,with,by),(on),0.011252,6.182609,1.000000
+(day,by,with),(on),0.011252,7.329897,1.000000
+ (one,day),(should),0.014065,3.006342,0.909091
+(day,or),(should),0.014065,3.006342,0.909091
+(day,or),(should),0.014065,3.306977,1.000000
+(day,or),(should),0.014065,3.893757,0.909091
+(Those),(who),0.037975,3.555000,1.000000
+(Those),(who),0.033755,3.555000,1.000000
+ (not,Those),(who),0.012658,3.555000,1.000000
+ (Those,not),(who),0.011252,3.555000,1.000000
+(by,Those),(who),0.012658,3.555000,1.000000
+(by,Those),(who),0.012658,3.555000,1.000000
+(by,Those),(who),0.012658,4.207101,1.000000
+(Those,away),(who),0.011252,3.555000,1.000000
+(Those,away),(who),0.011252,3.555000,1.000000
+(Those,away),(who),0.011252,4.207101,1.000000
+ (Those,those),(who),0.018284,3.555000,1.000000
+ (Those,those),(who),0.015471,3.555000,1.000000
+(on,riceballs),(with),0.012658,2.633333,0.900000
+ (one,riceballs),(should),0.011252,3.306977,1.000000
+(be,riceballs),(should),0.012658,3.306977,1.000000
+ (riceballs,fer),(should),0.012658,2.976279,0.900000
+ (riceballs,fer),(should),0.012658,2.976279,0.900000
+ (riceballs,fer),(should),0.012658,3.854819,0.900000
+ (one,fer),(should),0.011252,3.306977,1.000000
+ (aend),(by),0.011252,3.118421,1.000000
+ (aend),(by),0.011252,3.118421,1.000000
+ (aend),(by),0.011252,3.722513,1.000000
+ (or,that),(with),0.014065,2.659933,0.909091
+(ahaving,he),(with),0.014065,2.659933,0.909091
+(ahaving,he),(with),0.012658,2.633333,0.900000
+(awith),(with),0.018284,2.716931,0.928571
+(awith),(with),0.018284,2.716931,0.928571
+(awith),(with),0.018284,3.284648,0.928571
+ (all,one,with),(should),0.014065,3.006342,0.909091
+ (one,with,all),(should),0.014065,3.006342,0.909091
+ (one,with,all),(should),0.014065,3.893757,0.909091
+(be,by,not),(who),0.012658,3.199500,0.900000
+ (should,them),(with),0.018284,2.716931,0.928571
+ (be,them),(should),0.011252,3.306977,1.000000
+ (them,should,he),(with),0.014065,2.659933,0.909091
+ (them,with,he),(should),0.014065,3.306977,1.000000
+(by,be,son),(should),0.012658,3.306977,1.000000
+(son,it),(should),0.015471,3.031395,0.916667
+(son,it),(should),0.012658,2.976279,0.900000
+(for,perform,one),(should),0.012658,3.306977,1.000000
+(one,for,perform),(should),0.012658,3.306977,1.000000
+(for,one,perform),(should),0.012658,4.283133,1.000000
+(on,perform),(should),0.014065,3.006342,0.909091
+ (one,perform),(should),0.023910,3.123256,0.944444
+ (one,perform),(should),0.021097,3.306977,1.000000
+(perform,with),(should),0.016878,3.306977,1.000000
+(perform,with),(should),0.015471,3.306977,1.000000
+(perform,with),(should),0.015471,3.926205,0.916667
+ (one,perform,with),(should),0.012658,3.306977,1.000000
+ (one,perform,with),(should),0.012658,3.306977,1.000000
+ (one,perform,with),(should),0.012658,4.283133,1.000000
+ (son,perform),(should),0.012658,2.976279,0.900000
+(be,perform),(should),0.015471,3.306977,1.000000
+(be,perform),(should),0.014065,3.306977,1.000000
+(be,perform),(should),0.014065,3.893757,0.909091
+ (be,one,perform),(should),0.012658,3.306977,1.000000
+ (be,one,perform),(should),0.011252,3.306977,1.000000
+ (prescribed),(as),0.015471,6.860526,0.916667
+ (should,prescribed),(as),0.011252,7.484211,1.000000
+(nor),(not),0.016878,5.733871,1.000000
+(nor),(not),0.015471,5.733871,1.000000
+(nor),(not),0.015471,6.719072,0.916667
+(eaten),(by),0.012658,2.806579,0.900000
+ (If,be),(should),0.014065,3.006342,0.909091
+(be,cow),(should),0.011252,3.306977,1.000000
+(be,cow),(should),0.011252,3.306977,1.000000
+(be,cow),(should),0.011252,4.283133,1.000000
+ (by,hell),(who),0.012658,3.199500,0.900000
+ (by,hell),(who),0.012658,3.199500,0.900000
+ (by,hell),(who),0.012658,3.786391,0.900000
+ (athose),(who),0.021097,3.332812,0.937500
+ (athose),(who),0.018284,3.301071,0.928571
+(those,athose),(who),0.011252,3.555000,1.000000
+(for,aother),(should),0.012658,2.976279,0.900000
+ (be,aother),(should),0.012658,2.976279,0.900000
+ (be,if),(should),0.015471,3.031395,0.916667
+ (be,if),(should),0.012658,2.976279,0.900000
+ (if,should),(be),0.012658,5.469231,0.900000
+(for,if),(be),0.014065,5.524476,0.909091
+(be,for,if),(should),0.012658,2.976279,0.900000
+(for,if,should),(be),0.012658,6.076923,1.000000
+ (should,together),(with),0.011252,2.925926,1.000000
+(be,Therefore),(should),0.018284,3.070764,0.928571
+(be,Therefore),(should),0.012658,2.976279,0.900000
+(mantras),(with),0.012658,2.633333,0.900000
+(mantras,should),(with),0.012658,2.925926,1.000000
+(clarified),(butter),0.012658,50.785714,1.000000
+(clarified,with),(butter),0.011252,50.785714,1.000000
+ (one,rites),(should),0.015471,3.031395,0.916667
+ (one,rites),(should),0.012658,2.976279,0.900000
+(for,rites,one),(should),0.011252,3.306977,1.000000
+ (rites,perform),(should),0.012658,2.976279,0.900000
+ (performs),(who),0.012658,3.199500,0.900000
+(basil),(holy),0.012658,35.550000,0.900000
+ (wise),(should),0.011252,3.306977,1.000000
+ (rice),(should),0.011252,3.306977,1.000000
+ (dead,with),(should),0.011252,3.306977,1.000000
+ (dead,with),(should),0.011252,3.306977,1.000000
+ (dead,with),(should),0.011252,4.283133,1.000000
